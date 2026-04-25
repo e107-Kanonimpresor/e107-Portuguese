@@ -1,6 +1,19 @@
+H1> Conceder acesso de administrador
 
-P> O que são permissões de acesso?
-R> Permitem-te atribuir diferentes níveis de acesso aos administradores na secção de administração. Por exemplo, podes querer permitir que apenas um determinado administrador publique notícias; usando permissões podes fazer isso. Existem algumas funções de administração que só estão acessíveis ao administrador principal do site, por razões de segurança.
+P> Os administradores são utilizadores normais com permissões elevadas. A cada administrador podem ser atribuídas exatamente as permissões de que necessita – nada mais – para que os moderadores do dia-a-dia nunca vejam as áreas sensíveis do site.
 
-P> Quero tornar um membro registado num administrador – como faço?
-R> Clica em Utilizadores na tua área de administração e procura o membro registado. Depois, clica em Tornar Administrador. A seguir, deves ir imediatamente à secção Administradores e definir as permissões dele. Também podes remover o estatuto de administrador de alguém desta forma.
+SHOT> administrators/admin-users.png | Matriz de permissões ao editar um administrador
+
+Q> O que são as permissões?
+A> As permissões permitem atribuir aos administradores diferentes níveis de acesso à secção de administração. Por exemplo, podes querer permitir que um determinado administrador apenas publique notícias; com as permissões podes fazer isso. Existem algumas funções de administração que só estão acessíveis ao [b]administrador principal do site[/b] por motivos de segurança.
+
+WARN> Ao administrador principal do site (utilizador #1) não podem ser revogadas as permissões – é assim por design, para que o site nunca fique trancado para si próprio.
+
+H1> Promover um membro existente
+
+STEP> Abre [b]Admin → Utilizadores[/b] e procura o membro registado.
+STEP> Clica em [b]Tornar Administrador[/b] nas acções da linha.
+STEP> Vai imediatamente à secção [b]Administradores[/b].
+STEP> Activa as permissões que o novo administrador deve ter e guarda.
+
+TIP> O mesmo fluxo permite-te [b]revogar[/b] o estatuto de administrador: basta limpar as permissões ou clicar em [b]Remover Administrador[/b].

@@ -1,9 +1,16 @@
+H1> Configurar a chatbox
 
-P> Para que serve a secção Substituir ligações?
-R> Podes converter qualquer ligação introduzida na tua chatbox por outro texto ou uma imagem. Isto evita que a chatbox fique cheia de endereços longos. Para usares uma imagem, marca a opção Substituir ligações e, na caixa abaixo, insere: <img src='path_to_your_image' alt='' />. A partir daí, qualquer ligação inserida será convertida na imagem que definiste.
+P> A Chatbox é um pequeno mural de mensagens em tempo real. Com algumas opções pode ser tornada segura para qualquer público.
 
-P> Para que serve o Wordwrap?
-R> Se alguém escrever uma palavra muito longa na chatbox, pode desformatar o layout do teu site. Se inserires, por exemplo, 40 na caixa Wordwrap, qualquer palavra com mais de 40 caracteres será quebrada para que a coluna não se alargue. Podes ter de ajustar este valor de acordo com o tema que estiveres a usar e a largura da coluna onde a chatbox está posicionada.
+Q> Para que serve a secção Substituir Ligações?
+A> Podes converter qualquer ligação introduzida na chatbox noutro texto ou numa imagem. Isto evita que a chatbox fique cheia de URLs longos. Para usar uma imagem, activa [b]Substituir Ligações[/b] e no campo abaixo introduz `<img src="caminho_para_a_imagem" alt="" />` – cada ligação aparecerá então como essa imagem.
 
-P> O meu site é para todas as idades, mas há alguém que continua a usar palavrões na chatbox — como posso evitar isso?
-R> Vai ao ecrã de Preferências na área de administração e procura a opção Proteção de menores. Aí podes adicionar uma lista de palavras que serão substituídas por outro texto à tua escolha, como por exemplo: CENSURADO! Assim, sempre que essa palavra for usada no teu site, será automaticamente substituída pelo texto que definiste.
+Q> Para que serve o Wordwrap?
+A> Se um utilizador escrever uma única palavra muito longa pode esticar a coluna onde a chatbox está colocada. Definir o Wordwrap para, por exemplo, `40` força as palavras com mais de 40 caracteres a quebrar. Ajusta o valor à largura da coluna do teu tema activo.
+
+H1> Moderação
+
+Q> O meu site é para todas as idades mas alguém continua a dizer palavrões na chatbox – como posso travá-lo?
+A> Abre [b]Admin → Preferências[/b] e procura as opções [b]Protecção de Menores[/b]. Adiciona as palavras que queres censurar; serão substituídas em todo o site pelo texto que escolheres (por exemplo, `CENSURADO!`).
+
+WARN> A lista de censura é global – afecta notícias, comentários, fóruns e a chatbox por igual. Testa primeiro com uma palavra inofensiva para confirmar o comportamento.

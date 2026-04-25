@@ -1,6 +1,13 @@
+H1> Gerir ligações
 
-P> Como posso inserir um link para que ele apareça no meu menu de navegação principal?
-R> Quaisquer links na categoria Principal aparecerão no seu menu de navegação principal. Todas as outras categorias aparecerão na página de Links.
+P> A administração de Ligações controla tanto o menu de navegação principal como a página pública de Ligações. Ambos partilham o mesmo armazenamento e modelo de categorias.
 
-P> Para que serve a caixa de texto do botão de link?
-R> Isto permite-lhe exibir o botão para o link na página de Links. Se o deixar em branco, será exibido um botão em branco.
+Q> Como posso introduzir uma ligação para que apareça no menu de navegação principal?
+A> Adiciona a ligação na categoria [b]Principal[/b]. Tudo o que estiver nessa categoria é renderizado no menu de navegação principal do tema activo. Ligações em qualquer outra categoria aparecem na página pública de Ligações.
+
+Q> Para que serve o campo de texto do botão da ligação?
+A> Define a imagem do botão usado para representar a ligação na página de Ligações. Se o deixares em branco, é mostrado um botão vazio.
+
+TIP> Usa legendas claras e curtas para as ligações na categoria Principal – o menu de navegação tem espaço horizontal limitado e legendas longas quebram ou truncam consoante o tema.
+
+NOTE> As regras de visibilidade das ligações respeitam as classes de utilizador (ver a página de ajuda Classes), por isso podes publicar ligações "só para membros" que os visitantes nunca vêem.

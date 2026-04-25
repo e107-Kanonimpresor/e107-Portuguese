@@ -1,6 +1,13 @@
+H1> Emoticons
 
-P> O que são os emoticons?
-R> Os emoticons são aquelas carinhas sorridentes que vês noutros sites. Se ativares os emoticons no teu site, sempre que alguém inserir um smiley, por exemplo :), ele será substituído pela imagem correspondente 😊.
+P> Os emoticons (smileys) substituem códigos curtos de texto por imagens, para que os utilizadores possam exprimir o tom sem escrever HTML.
 
-P> Posso adicionar novos códigos de emoticons?
-R> Sim, a partir do ecrã de emoticons podes adicionar novos, editar os existentes ou eliminá-los.
+Q> O que são os emoticons?
+A> São os smileys que vês na maioria dos sites comunitários. Quando os emoticons estão activos, ao escreveres `:)` (ou qualquer outro código registado) é automaticamente substituído pela imagem correspondente.
+
+Q> Posso introduzir novos códigos de emoticon?
+A> Sim. No administrador de Emoticons podes adicionar novos códigos, editar os existentes ou apagar os que não precisas.
+
+TIP> Os pacotes de emoticons são independentes do tema; podes trocar de pacote a partir de [b]Admin → Emoticons[/b] sem mudar de tema. Coloca novos pacotes em `e107_images/emotes/<nomedopacote>/`.
+
+NOTE> Se os emoticons deixarem de aparecer, verifica que estão activos tanto globalmente (Preferências) como no contexto do parser onde o texto é renderizado (por exemplo, comentários).

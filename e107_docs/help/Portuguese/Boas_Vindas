@@ -1,3 +1,37 @@
+H1> O que é a Mensagem de Boas-vindas?
 
-P> Para que serve esta seção?
-R> Pode inserir algum texto aqui que será sempre exibido acima dos seus artigos de notícias na página principal. Pode inserir uma mensagem diferente para Convidados, Membros e Administradores.
+P> A Mensagem de Boas-vindas é um bloco de texto que aparece sempre acima dos itens de notícias na página inicial. Podes adaptá-la a três públicos diferentes para que cada visitante veja exactamente o que lhe interessa.
+
+SHOT> welcome/message-welcome.png | O bloco de boas-vindas tal como os visitantes o vêem na página inicial
+
+NOTE> Podes usar BBCode e até [b]HTML embutido[/b] na tua mensagem de boas-vindas. Mantém-na curta – é a primeira coisa que os teus visitantes leem.
+
+H1> Onde configurá-la
+
+STEP> Inicia sessão na Área de Administração.
+STEP> Abre [b]Mensagem de Boas-vindas[/b] a partir do menu de administração.
+STEP> Edita a mensagem para cada classe de utilizador (Visitantes, Membros, Administradores).
+STEP> Guarda. O novo texto aparece imediatamente na página inicial.
+
+SHOT> welcome/message-welcome-edit.png | Editor da Mensagem de Boas-vindas com os três separadores por classe de utilizador
+
+H2> Porquê três variantes?
+
+Cada público tem necessidades diferentes:
+
+TIP> [b]Visitantes[/b]: convida-os a registar-se, destaca conteúdo público.
+TIP> [b]Membros[/b]: mostra atalhos, anúncios, ligações da comunidade.
+TIP> [b]Administradores[/b]: destaca tarefas de moderação pendentes ou notas de manutenção.
+
+H1> Perguntas frequentes
+
+Q> Posso deixar uma mensagem de boas-vindas vazia?
+A> Sim. Se uma variante estiver vazia, o público correspondente simplesmente não vê bloco de boas-vindas.
+
+Q> A mensagem suporta imagens?
+A> Sem dúvida. Usa o BBCode padrão [i][img]…[/img][/i] ou cola um URL completo.
+
+Q> Como escondo a mensagem em páginas específicas?
+A> A mensagem de boas-vindas só é renderizada no controlador da página inicial (news.php por defeito). As outras páginas não são afectadas.
+
+WARN> Evita colar blocos longos de JavaScript ou HTML não filtrado – o e107 sanetiza a saída, e qualquer coisa removida simplesmente desaparecerá da vista.

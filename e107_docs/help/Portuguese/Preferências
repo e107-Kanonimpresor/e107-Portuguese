@@ -1,21 +1,52 @@
+H1> Visão geral das preferências do site
 
-P> Como mudo de tema?
-R> Existe uma seção na página de Preferências que permite mudar o tema do seu site. Certifique-se de visualizar o tema primeiro, pois alguns temas antigos já não são compatíveis e podem tornar o seu site inutilizável se forem aplicados.
+P> A área de Preferências é o coração do e107: temas, segurança, sessões e modos de renderização são todos configurados aqui. Esta página responde às perguntas mais frequentes dos administradores quando abrem o ecrã pela primeira vez.
 
-P> O que é o COPPA?
-R> A Lei de Proteção da Privacidade Infantil Online de 1998 (COPPA, na sigla em inglês). É uma norma universalmente utilizada para proteger a privacidade de menores de 13 anos ou menos. Garante que nenhuma informação sobre menores seja usada pelo 'Operador' (ou seja, você) para fins diferentes da manutenção do site. Para mais informações, consulte http://www.ftc.gov/privacy/coppafaqs.shtm.
+NOTE> A maioria das preferências entra em vigor imediatamente ao guardar. Se não vires uma alteração reflectida no front-end, limpa a cache em [b]Admin → Cache[/b].
 
-P> O que é a proteção contra sobrecarga?
-R> Evita que o seu site seja sobrecarregado com chamadas HTTP, o que pode tornar o seu site inacessível.
+H1> Temas
 
-P> Devo usar Cookies ou Sessões para rastrear os meus utilizadores?
-R> A escolha é sua. Se o seu site estiver a funcionar bem com cookies (o padrão), então deixe-o assim. Se preferir usar sessões PHP, então utilize essa opção (e107 usa um manipulador de sessões personalizado para armazenar e gerir as sessões).
+Q> Como mudo de tema?
+A> Abre [b]Admin → Temas[/b], passa o rato sobre o cartão do tema e clica em [b]Pré-visualizar[/b] antes de activar. Alguns temas antigos construídos para o e107 1.x já não são compatíveis e podem deixar o site inutilizável, por isso pré-visualiza sempre primeiro.
 
-P> Porque devo executar o meu site em modo de padrões?
-R> Se estiver a desenvolver um tema e a ter problemas para ele ser renderizado corretamente no Firefox/Mozilla e IE, experimente marcar esta opção. O IE será então executado em modo de padrões e utilizará o modelo de caixa correto.
+SHOT> preferences/theme-manager.png | Gestor de Temas – passa o rato sobre qualquer cartão para revelar Pré-visualizar / Activar
 
-P> O que significa PLAINTEXT?
-R> É uma cadeia de texto que é exibida com um valor para cada atributo de texto.
+TIP> Activa o tema numa cópia de staging antes de o promover à produção. O Gestor de Temas lembra-se do tema anterior para que possas reverter num clique.
 
-P> O que significa CHAP?
-R> O Protocolo de Autenticação Challenge-Handshake (CHAP) autentica um utilizador ou um host de rede perante uma entidade autenticadora. Essa entidade pode ser, por exemplo, um provedor de serviços de Internet.
+H1> Segurança e protecção contra abusos
+
+Q> O que é COPPA?
+A> A [b]Children's Online Privacy Protection Act de 1998[/b]. É uma regra universalmente adoptada que protege menores com 13 anos ou menos. Garante que nenhuma informação sobre menores é usada pelo operador (tu) para fins além da manutenção do site. Consulta a [url=https://www.ftc.gov/business-guidance/resources/complying-coppa-frequently-asked-questions]FAQ COPPA da FTC[/url] para o texto completo.
+
+Q> O que é a protecção contra sobrecarga (flood)?
+A> Evita que o site seja sobrecarregado por pedidos HTTP abusivos, que de outra forma poderiam torná-lo inacessível. O e107 limita chamadas repetidas do mesmo IP dentro de uma janela de tempo curta.
+
+SHOT> preferences/flood-protection.png | Definições de protecção contra sobrecarga dentro das Preferências do Site
+
+WARN> É fortemente desencorajado desactivar a protecção contra sobrecarga num site público. Se precisares mesmo de aumentar o limiar, fá-lo incrementalmente e monitoriza `e107_system/<sitehash>/logs/`.
+
+H1> Sessões e rastreamento
+
+Q> Devo usar Cookies ou Sessões para rastrear os meus utilizadores?
+A> É uma escolha tua. Se o teu site está a funcionar bem com cookies (o padrão), deixa-o assim. Se preferes sessões PHP, muda para esse modo – o e107 inclui um manipulador de sessões personalizado que armazena e gere sessões com segurança.
+
+H2> Quando preferir sessões
+
+STEP> Operas sob um regime estrito de consentimento de cookies e queres minimizar cookies persistentes.
+STEP> Corres vários subdomínios que precisam de partilhar o estado de login de forma limpa.
+STEP> Suspeitas de adulteração de cookies e queres estado do lado do servidor.
+
+H1> Modo de renderização e padrões
+
+Q> Porque devo executar o meu site em modo de padrões?
+A> Se estás a desenvolver um tema e tens problemas em renderizá-lo correctamente em vários navegadores, activa o modo de padrões. Os navegadores modernos aplicarão então o modelo de caixa e a especificação CSS correctos, correspondendo ao que a tua folha de estilo espera.
+
+H1> Glossário de autenticação
+
+Q> O que significa PLAINTEXT?
+A> Uma cadeia de texto que é transmitida (ou armazenada) com um valor por atributo de texto, sem qualquer encriptação. Usa-o apenas sobre HTTPS ou redes de confiança.
+
+Q> O que significa CHAP?
+A> [b]Challenge-Handshake Authentication Protocol[/b]. O CHAP autentica um utilizador ou host de rede perante uma entidade autenticadora (por exemplo, um provedor de serviços de Internet) trocando um desafio codificado em hash em vez da palavra-passe em si, mitigando ataques de repetição.
+
+NOTE> Para novas integrações prefere sempre autenticação moderna baseada em tokens (JWT, OAuth2) em vez de PLAINTEXT ou CHAP.

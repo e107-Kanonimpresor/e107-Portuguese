@@ -1,3 +1,28 @@
+H1> Gerir utilizadores
 
-P> Para que serve a seção de Campo Estendido?
-R> Isto permite-lhe adicionar mais seções à página de Utilizadores. Por exemplo, se estiver a gerir um clan, pode adicionar um campo para o nome de clã, ou o número médio de bandeiras :) O novo campo aparecerá na página de Definições de Utilizador e também na lista de Membros.
+P> A área de Utilizadores permite criar contas, agrupá-las em classes de utilizador e estender o perfil com campos personalizados. Duas perguntas surgem repetidamente entre novos administradores.
+
+H1> Campos estendidos de utilizador
+
+Q> Para que serve a secção de Campo Estendido?
+A> Permite-te adicionar mais secções à página de Utilizadores. Por exemplo, se geres um clã podes adicionar um campo para a alcunha de clã, ou para o número médio de bandeiras. O novo campo aparece tanto na página [b]Definições[/b] do utilizador como na lista pública de [b]Membros[/b].
+
+SHOT> users/user-classe-extended-fields.png | Lista de campos estendidos com tipo e visibilidade
+
+H2> Casos de uso típicos
+
+STEP> Adiciona um dropdown [b]País[/b] para que os membros localizem o seu perfil.
+STEP> Adiciona um campo de texto [b]Nome no Discord[/b] para contacto comunitário.
+STEP> Adiciona um campo de data para [b]data de aniversário[/b] e usa-o no tema para dar os parabéns aos utilizadores.
+
+TIP> Marca campos sensíveis como [b]privados[/b] se nunca devem aparecer no perfil público – o e107 continua a armazená-los e expõe-nos apenas a administradores.
+
+H1> Classes de utilizador
+
+P> Cada conta pertence a uma ou mais classes de utilizador (Visitantes, Membros, Administradores, além de qualquer classe personalizada que crieis). As classes são a base do modelo de permissões do e107: menus, plugins, BBCodes e até itens individuais de notícias podem ser restringidos por classe.
+
+SHOT> users/tree-user.png | Árvore de classes de utilizador com classes embutidas e personalizadas
+
+NOTE> Podes criar uma nova classe a partir de [b]Admin → Classes de Utilizador[/b]. Assim que criada, a classe fica seleccionável em todos os dropdowns de visibilidade na área de administração.
+
+WARN> Remover uma classe referenciada por conteúdo (notícias, páginas, menus) não apaga esse conteúdo, mas fará com que volte à visibilidade por defeito, o que pode expor itens privados. Audita as referências antes de apagar uma classe.

@@ -1,3 +1,17 @@
+H1> Quando algo corre mal
 
-P> Estou a obter alguns erros numa página específica, o que posso fazer em relação a isso?
-R> Visita o fórum de Problemas em e107.org e verifica se mais alguém está a ter o mesmo problema. Se achares que é um bug, por favor, publica o erro no sistema de rastreamento de bugs em e107.org.
+P> Os erros fazem parte de gerir qualquer aplicação web. O e107 regista muitos deles automaticamente – esta página diz-te onde procurar e como pedir ajuda.
+
+Q> Estou a obter erros numa determinada página – o que faço?
+A> Navega até ao fórum [b]Problemas[/b] em [url=https://e107.org]e107.org[/url] e verifica se mais alguém está a ter o mesmo problema. Se acreditas que é um bug, abre um relatório no bug tracker para que a equipa central o possa reproduzir.
+
+H1> Primeiros passos úteis
+
+STEP> Activa o modo de depuração acrescentando `?debug=1` ao URL enquanto estás autenticado como administrador.
+STEP> Verifica `e107_system/<sitehash>/logs/` por entradas recentes.
+STEP> Limpa a cache em [b]Admin → Cache[/b] – muitos problemas "estranhos" desaparecem depois de um flush.
+STEP> Reproduz o erro numa janela privada/anónima para excluir extensões do navegador.
+
+TIP> Ao abrir um relatório de bug, inclui: versão do e107, versão do PHP, versão do MySQL/MariaDB, tema activo, o URL exacto e qualquer excerto relevante do ficheiro de log. Quanto mais contexto fornecer, mais rápido o problema é corrigido.
+
+WARN> Nunca publiques o conteúdo bruto de `e107_config.php` ou credenciais da base de dados num relatório público de bug.

@@ -1,14 +1,16 @@
-# e107 Portuguese Language Pack v2.3.3
+# e107 Portuguese Language Pack v2.4.0
 ## Ficheiros de Língua PORTUGUESA (Portugal)
 
-* Revisão: 1.0
-* Data lançamento: 2025-05-04
+* Revisão: 2.0
+* Data lançamento: 2026-04-25
 * Autor: Kanonimpresor - <kanonimpresor@gmail.com>
 
 
 ## DESCRIÇÃO
 
-Este pack de arquivo contém os ficheiros (codificação utf-8) em Português de Portugal para a versão v2.3.3 do sistema de gestão de conteúdo e107. A tradução foi efetuada a partir dos originais em Inglês da mesma versão, e contém as seguinte pastas e arquivos:
+Este pack de arquivo contém os ficheiros (codificação utf-8) em Português de Portugal para a versão v2.4.0 do sistema de gestão de conteúdo e107. A tradução foi efetuada a partir dos originais em Inglês da mesma versão, e contém as seguinte pastas e arquivos:
+
+> 🆕 **Novidade v2.4.0** — Os ficheiros de ajuda em `e107_docs/help/Portuguese/` foram reescritos para tirar partido do novo renderizador enriquecido do painel de administração (PR upstream [#5596](https://github.com/e107inc/e107/pull/5596)). Suportam agora marcadores como `H1>`, `P>`, `NOTE>`, `TIP>`, `WARN>`, `SHOT>` (capturas de ecrã), `STEP>` (passos numerados), `IMG>` e `CODE>`, mantendo retrocompatibilidade total com o formato legacy `Q>/A>`.
 
 ## ESTRUCTURA DA DIRECTORIA
 ```
@@ -42,11 +44,13 @@ Se detectar algum erro e desejar alertar o autor para a correcção do mesmo, po
 - expressão/palavra errada;
 
 ## HISTÓRICO
+v2.0 [2026-04-25] => Reescrita dos 21 ficheiros de `e107_docs/help/Portuguese/` com os novos marcadores enriquecidos (`H1>`, `P>`, `NOTE>`, `TIP>`, `WARN>`, `SHOT>`, `STEP>`, `IMG>`, `CODE>`) introduzidos pelo PR upstream [#5596](https://github.com/e107inc/e107/pull/5596). Compatível com e107 v2.4.0 e retrocompatível com instalações v2.3.x (fallback para parágrafos planos + BBCode quando o renderizador antigo não interpreta os marcadores).
+
 v1.0 [2025-05-04] => Primeiro lançamento oficial da tradução PT-PT .utf-8 (v2.3.3).
 
 ## LICENÇA
 
-e107 Portuguese Language Pack v2.3.3, lançado nos termos e condições da GNU [General Public License](http://www.gnu.org/licenses/gpl.txt)
+e107 Portuguese Language Pack v2.4.0, lançado nos termos e condições da GNU [General Public License](http://www.gnu.org/licenses/gpl.txt)
 
 
 [EOF]

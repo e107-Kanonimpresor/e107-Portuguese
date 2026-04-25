@@ -1,6 +1,17 @@
+H1> Modo de manutenção
 
-P> Para que serve esta seção?
-R> Esta tela permite tornar o seu site inacessível para os visitantes. Utilize-a quando estiver a atualizar o seu site ou quando precisar de o retirar por algum motivo. Apenas o administrador principal do site pode aceder ao site quando este está em modo de manutenção; saberá que está neste modo porque aparecerá uma mensagem em todas as páginas.
+P> O modo de manutenção esconde o site do público enquanto actualizas, executas uma migração ou investigas um incidente. Apenas o administrador principal pode navegar no site enquanto o sinal está activo; todos os outros vêem um aviso de manutenção.
 
-P> Socorro! Eu ativei a bandeira de manutenção e, por acidente, saí da sessão. Como posso voltar a aceder à seção de administração para colocar o site online novamente?
-R> Vá para http://seusite.com/e107_admin/admin.php e faça login a partir daí.
+SHOT> maintainance/admin-maintenance.png | Interruptor do sinal de manutenção dentro da área de administração
+
+Q> Para que serve esta secção?
+A> Permite-te tornar o site inacessível aos visitantes. Usa-a ao actualizar o site ou quando precisas de o retirar por qualquer motivo. O administrador principal continua a ver todas as páginas (com uma faixa a lembrar que a manutenção está activa).
+
+H1> Ficaste trancado fora?
+
+Q> Socorro! Activei o sinal de manutenção e acidentalmente saí da sessão – como volto à área de administração para repor o site em linha?
+A> Vai directamente a `http://oteusite.com/e107_admin/admin.php` e inicia sessão a partir daí. O URL de login do administrador está isento do modo de manutenção precisamente por este motivo.
+
+WARN> Confirma sempre que continuas autenticado [b]antes[/b] de activar o modo de manutenção, especialmente em redes instáveis. Guarda o URL do administrador acima nos favoritos por precaução.
+
+TIP> Durante o modo de manutenção os visitantes vêem uma mensagem genérica. Personaliza-a em [b]Preferências → Mensagem de manutenção[/b] para que os visitantes saibam quando esperas voltar.

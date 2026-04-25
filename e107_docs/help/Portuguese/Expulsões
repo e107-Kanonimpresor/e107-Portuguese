@@ -1,6 +1,13 @@
+H1> Sobre a lista de bloqueios
 
-P> Para que serve esta secção?
-R> Esta página permite-te banir visitantes do teu site, seja pelo endereço IP e/ou pelo endereço de email.
+P> A lista de bloqueios trava os visitantes indesejados à porta. Podes banir por endereço IP, por endereço de e-mail ou por um padrão com caracteres universais de qualquer um deles.
 
-P> Porque é que tenho de indicar um motivo?
-R> Não tens, essa caixa de texto está lá para que outros administradores possam ver o motivo do bloqueio, ou podem removê-lo por engano.
+Q> Para que serve esta secção?
+A> Permite-te banir visitantes do teu site, seja pelo endereço IP e/ou pelo endereço de e-mail. Os endereços bloqueados são verificados muito cedo no ciclo do pedido, por isso os visitantes bloqueados nunca chegam ao teu conteúdo.
+
+Q> Porque é que tenho de indicar um motivo?
+A> Não és obrigado, mas é fortemente recomendado. O campo do motivo é mostrado a outros administradores para que percebam o porquê do bloqueio – sem ele, alguém poderá levantar o banimento por engano.
+
+TIP> Usa o campo [b]Validade[/b] para agendar bloqueios curtos (por exemplo, períodos de 24 horas). Os bloqueios permanentes devem ser reservados para infractores reincidentes.
+
+WARN> Banir por IP afecta todos os utilizadores que partilham esse IP – incluindo visitantes legítimos em redes partilhadas (universidades, operadoras móveis, NAT). Sempre que possível, prefere bloquear por e-mail/conta.

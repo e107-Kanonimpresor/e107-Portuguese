@@ -1,6 +1,15 @@
+H1> Gerir transferências
 
-P> O que é um transferência principal?
-R> Isto permite-te agrupar as tuas transferências em diferentes categorias.
+P> A administração de Transferências organiza ficheiros em categorias ("transferências principais") e associa-lhes imagens e descrições para a página pública de transferências.
 
-P> Quero adicionar uma transferência mas o ficheiro não aparece na lista — porquê?
-R> Apenas os ficheiros na pasta e107_files/downloads aparecem na lista pendente. Copia o ficheiro para essa pasta e ele aparecerá. O mesmo se aplica às imagens; elas devem estar na pasta e107_files/downloadimages.
+SHOT> downloads/admin-download.png | Vista de lista das transferências agrupadas por categoria principal
+
+Q> O que é uma transferência principal?
+A> Uma categoria principal agrupa as tuas transferências em temas (por exemplo, "Documentação", "Temas", "Ferramentas"). Os visitantes navegam por categoria, o que mantém as listas manuseáveis.
+
+Q> Quero adicionar uma transferência mas o ficheiro não aparece na lista – porquê?
+A> Só aparecem na lista os ficheiros colocados em `e107_files/downloads/`. Copia o ficheiro para essa pasta e aparecerá. As imagens das transferências funcionam da mesma forma, mas ficam em `e107_files/downloadimages/`.
+
+TIP> Se geres muitas transferências, considera enviar por SFTP/SSH directamente para `e107_files/downloads/` em vez de usar o uploader web – é mais rápido e ignora o limite `upload_max_filesize` do PHP.
+
+WARN> Os ficheiros colocados em `e107_files/downloads/` são publicamente descarregáveis através do e107 assim que forem ligados. Não guardes documentos privados nessa pasta.
