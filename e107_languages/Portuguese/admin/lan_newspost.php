@@ -55,7 +55,7 @@ define("NWSLAN_39", "Tem a certeza de que deseja eliminar esta notícia?");
 // define("NWSLAN_42", "Sem título"); - já não permitido
 define("NWSLAN_43", "Sem itens de notícia");
 define("NWSLAN_44", "Página principal das notícias");
-define("NWSLAN_45", "Criar Item de Notícia");
+define("NWSLAN_45", "Criar Notícia");
 define("NWSLAN_46", "Categorias");
 define("NWSLAN_46a", "Notícias - Categorias");
 define("NWSLAN_47", "Notícias Submetidas");
@@ -159,7 +159,7 @@ define("LAN_NEWS_62", "Erro ao aceder à base de dados ou nenhum item de notíci
 
 define("LAN_NEWS_63", "Criar categoria");
 define("LAN_NEWS_64", "Enviado antigamente");
-define("LAN_NEWS_65", "Por favor, escolha uma string única de URL SEF para esta categoria");
+define("LAN_NEWS_65", "Por favor, escolha uma string única de URL amigável para esta categoria");
 
 define("LAN_NEWS_67", "Fechar");
 define("LAN_NEWS_68", "Item submetido");
@@ -179,7 +179,7 @@ define("LAN_NEWS_91", "Limite de visualização da lista por página");
 define("LAN_NEWS_92", "ex. news.php?all ou news.php?cat.1 ou news.php?tag=xxx");
 define("LAN_NEWS_93", "Conteúdo da visualização da lista");
 define("LAN_NEWS_94", "Os itens atribuídos a estes modelos serão exibidos na lista.");
-define("LAN_NEWS_95", "Outro item de notícia está a usar a URL SEF: [x]");
+define("LAN_NEWS_95", "Outro item de notícia está a usar a URL amigável: [x]");
 define("LAN_NEWS_96", "Aprovar"); 
 define("LAN_NEWS_97", "Menu de grades de notícias");
 define("LAN_NEWS_98", "Serviços de ping");
@@ -193,7 +193,7 @@ define("LAN_NEWS_105", "Notificação por e-mail disparada!");
 define("LAN_NEWS_106", "A visibilidade do item de notícia deve incluir 'todos' para que as notificações por e-mail funcionem.");
 define("LAN_NEWS_107", "Verificando o estado do Ping");
 
-define("LAN_NEWS_108", "A URL SEF é diferente do título do seu item de notícia.");
+define("LAN_NEWS_108", "A URL amigável é diferente do título do seu item de notícia.");
 define("LAN_NEWS_109", "Disparar uma notificação por e-mail quando submeter este formulário.");
 define("LAN_NEWS_110", "Tempo de expiração do cache de notícias");
 define("LAN_NEWS_111", "Tempo em minutos. Aplica-se apenas quando o cache do sistema está ativado.");

@@ -136,7 +136,7 @@ define("LAN_RE_ORDER", "Reordenar");
 define("LAN_RELATED", "Relacionado");
 define("LAN_CLOSE", "Fechar");
 define("LAN_EXPAND", "Expandir");
-define("LAN_LIST", "Lista");
+define("LAN_LIST", "Visão Geral");
 define("LAN_DATESTAMP","Data");
 define("LAN_SUBJECT","Assunto");
 

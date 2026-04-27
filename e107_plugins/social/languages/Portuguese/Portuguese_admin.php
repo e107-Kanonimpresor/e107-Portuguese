@@ -1,26 +1,28 @@
 <?php
 /*
 +---------------------------------------------------------------+
-|        e107 sítio internet content management system Portuguese Language File
-|        Released under the terms and conditions of the
-|        GNU General Public License (http://gnu.org).
-|        Last Modified: 2024/04/25 15:52:48
+|       e107 content management system.
+|       (Portuguese language file)
 |
-|        $Author: Rica-Carv $
+|       Tradução Português(PT) -> Comunidade e107 Portugal
+|      	(http://www.e107pt.com), 2025
+|
+|       Released under the terms and conditions of the
+|       GNU General Public License (http://gnu.org).
 +---------------------------------------------------------------+
 */
 
 define("LAN_SOCIAL_ADMIN_00", "Aplicações");
-define("LAN_SOCIAL_ADMIN_01", "Páginas");
-define("LAN_SOCIAL_ADMIN_02", "Provedores de entrar configurados");
-define("LAN_SOCIAL_ADMIN_03", "Inscrição/Entrar");
+define("LAN_SOCIAL_ADMIN_01", "Páginas rede sociais");
+define("LAN_SOCIAL_ADMIN_02", "Configuração de acesso");
+define("LAN_SOCIAL_ADMIN_03", "Inscrição/Acessar");
 define("LAN_SOCIAL_ADMIN_04", "Fornecedor");
 define("LAN_SOCIAL_ADMIN_05", "Chave/ID");
 define("LAN_SOCIAL_ADMIN_06", "Segredo");
 define("LAN_SOCIAL_ADMIN_07", "Permite que os usuários se inscrevam/façam entrar com suas contas de mídia social. Quando ativada, esta opção ainda permitirá que os usuários se inscrevam/façam entrar mesmo se o sistema principal de registro de utilizador acima estiver desativado.");
 define("LAN_SOCIAL_ADMIN_10", "Obtenha uma chave do provedor");
-define("LAN_SOCIAL_ADMIN_11", "Seu");
-define("LAN_SOCIAL_ADMIN_12", "página");
+define("LAN_SOCIAL_ADMIN_11", "Sua página de");
+define("LAN_SOCIAL_ADMIN_12", "aqui (url) -->");
 define("LAN_SOCIAL_ADMIN_13", "Usado por alguns temas para fornecer um hiperligação para o seu");
 define("LAN_SOCIAL_ADMIN_14", "Botões de compartilhamento");
 define("LAN_SOCIAL_ADMIN_15", "Comentários do Facebook");
@@ -52,8 +54,8 @@ define("LAN_SOCIAL_ADMIN_40", "Atualizar nome de exibição do utilizador");
 define("LAN_SOCIAL_ADMIN_41", "Atualizar avatar do utilizador");
 define("LAN_SOCIAL_ADMIN_42", "Imagem personalizada");
 define("LAN_SOCIAL_ADMIN_43", "Uma [atualização do banco de dados] é necessária para continuar usando este plugin.");
-define("LAN_SOCIAL_ADMIN_44", "Adicionar novo provedor");
-define("LAN_SOCIAL_ADMIN_45", "Esses provedores de entrar social estão atualmente configurados.\nSe a opção mestre [b]Inscrição/Entrar social[/b] estiver ativada, cada provedor nesta tabela que também estiver ativado poderá ser usado para registro e entrar do utilizador. Se você esvaziar os campos de um provedor aqui e salvar, ele irá para a seção [b]Adicionar novo provedor[/b].");
+define("LAN_SOCIAL_ADMIN_44", "Adicionar provedor");
+define("LAN_SOCIAL_ADMIN_45", "Esses provedores de mídia social estão atualmente configurados.\nSe a opção mestre [b]Registo / Acessar[/b] estiver ativada, cada provedor nesta tabela que também estiver ativado poderá ser usado para registro e acessar por méio do utilizador. Se você esvaziar os campos de um provedor aqui e salvar, ele irá para a seção [b]Adicionar novo provedor[/b].");
 define("LAN_SOCIAL_ADMIN_46", "Estes são os provedores de entrar social disponíveis, que não foram configurados. Depois de configurar e salvar um provedor aqui, ele será movido para a seção [b]Configurado[/b].");
 define("LAN_SOCIAL_ADMIN_47", "Provedores configurados quebrados");
 define("LAN_SOCIAL_ADMIN_48", "Esses provedores de entrar social foram configurados no passado, mas não possuem mais um adaptador que possa suportá-los.[br]Isso pode ser porque eles não existem mais ou foram substituídos por um provedor diferente.");
@@ -61,4 +63,4 @@ define("LAN_SOCIAL_ADMIN_49", "Página de teste");
 define("LAN_SOCIAL_ADMIN_50", "Habilite ou desabilite a página de teste de entrar social");
 define("LAN_SOCIAL_ADMIN_08", "Observação: na maioria dos casos, você precisará obter um ID do aplicativo e uma chave secreta dos provedores de entrar social.\nSe o nome de um provedor for um hiperligação, esse hiperligação deverá levá-lo à documentação de configuração do aplicativo de entrar.\n\nVocê pode testar seu configuração com o seguinte URL após ativar a opção [b]Página de teste[/b]:");
 define("LAN_SOCIAL_ADMIN_09", "Seu URL de retorno de chamada é:");
-define("LAN_SOCIAL_ADMIN_51", "Sistema de entrar social");
+define("LAN_SOCIAL_ADMIN_51", "Sistema de acesso social");

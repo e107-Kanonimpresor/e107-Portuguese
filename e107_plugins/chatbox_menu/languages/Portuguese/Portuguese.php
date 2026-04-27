@@ -1,33 +1,43 @@
 <?php
 /*
 +---------------------------------------------------------------+
-|        e107 sítio internet content management system Portuguese Language File
-|        Released under the terms and conditions of the
-|        GNU General Public License (http://gnu.org).
-|        Last Modified: 2024/04/23 19:29:28
+|       e107 content management system.
+|       (Portuguese language file)
 |
-|        $Author: Rica-Carv $
+|       Tradução Português(PT) -> Comunidade e107 Portugal
+|      	(http://www.e107pt.com), 2025
+|
+|       Released under the terms and conditions of the
+|       GNU General Public License (http://gnu.org).
 +---------------------------------------------------------------+
 */
-define("CHATBOX_L1", "Incapaz de aceitar o cargo como esse nome de utilizador é registrado - se é seu nome de utilizador faça o entrar para postar.");
-define("CHATBOX_L3", "Você deve estar logado para postar comentários neste site - faça entrar na caixa Entrar ou em [aqui].");
-define("CHATBOX_L3b", "Se você não está registrado clique [aqui] para se registrar.");
-define("CHATBOX_L4", "Postar nova mensagem");
-define("CHATBOX_L5", "Redefinir");
-define("CHATBOX_L6", "[bloqueado pelo admin]");
+
+define("CHATBOX_L1", "Não é possível aceitar a mensagem porque esse nome de utilizador está registado - se é o seu, por favor faça login para publicar.");
+// define("CHATBOX_L2", "Chatbox");
+define("CHATBOX_L3", "Precisa de estar autenticado para publicar comentários neste site - por favor faça login através da caixa de login ou [aqui].");
+define("CHATBOX_L3b", "Se não está registado, clique [aqui] para se registar.");
+define("CHATBOX_L4", "Publicar nova mensagem");
+define("CHATBOX_L5", "Reiniciar");
+define("CHATBOX_L6", "[bloqueado pelo administrador]");
 define("CHATBOX_L7", "Desbloquear");
 define("CHATBOX_L8", "Informação");
-define("CHATBOX_L9", "Bloco");
-define("CHATBOX_L11", "Não há mensagens ainda.");
-define("CHATBOX_L12", "Ver todos os publicações");
-define("CHATBOX_L13", "chatbox moderada");
-define("CHATBOX_L14", "Emotes");
-define("CHATBOX_L15", "Publicação muito longo, ou Publicação vazio apresentado");
-define("CHATBOX_L17", "Publicação duplicado");
-define("CHATBOX_L18", "Mensagens de chat moderadas");
-define("CHATBOX_L19", "Você só pode postar uma vez a cada [x] segundos");
-define("CHATBOX_L20", "Chatbox (todos os publicações)");
-define("CHATBOX_L22", "na");
-define("CHATBOX_L24", "Você não tem as permissões corretas para ver esta página.");
-define("CHATBOX_L25", "[este Publicação está bloqueado por admin]");
-define("LAN_CHATBOX_100", "Digite sua mensagem aqui.");
+define("CHATBOX_L9", "Bloquear");
+// define("CHATBOX_L10", "Eliminar");
+define("CHATBOX_L11", "Ainda não há mensagens.");
+define("CHATBOX_L12", "Ver todas as publicações");
+define("CHATBOX_L13", "moderar chatbox");
+define("CHATBOX_L14", "Emoções");
+define("CHATBOX_L15", "Mensagem demasiado longa ou vazia");
+// define("CHATBOX_L16", "Anónimo");
+define("CHATBOX_L17", "Publicação duplicada");
+define("CHATBOX_L18", "Mensagens da chatbox moderadas");
+define("CHATBOX_L19", "Só pode publicar uma vez a cada [x] segundos");
+
+define("CHATBOX_L20", "Chatbox (todas as publicações)");
+// define("CHATBOX_L21", "Publicações no Chat");
+define("CHATBOX_L22", "em");
+// define("CHATBOX_L23", "Erro!");
+define("CHATBOX_L24", "Não tem permissões suficientes para ver esta página.");
+define("CHATBOX_L25", "[ esta publicação foi bloqueada pelo administrador ]");
+
+define("LAN_CHATBOX_100", "Escreva a sua mensagem aqui.");

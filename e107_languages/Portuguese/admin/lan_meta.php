@@ -11,7 +11,7 @@
 |       GNU General Public License (http://gnu.org).
 +---------------------------------------------------------------+
 */
-define("METLAN_00", "Meta e Etiquetas Personalizadas");
+define("METLAN_00", "Etiquetas Meta");
 
 define("METLAN_1", "Etiquetas meta adicionais");
 define("METLAN_2", "ex.: < meta name='revisit-after' content='30 days' />");

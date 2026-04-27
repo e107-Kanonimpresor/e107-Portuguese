@@ -36,8 +36,8 @@ define("LAN_EURL_FORM_HELP_EXAMPLE", "URL base");
 
 // mensagens
 define("LAN_EURL_ERR_ALIAS_MODULE", "Alias &quot;%1\$s&quot; não pode ser salvo - existe um perfil de URL do sistema com o mesmo nome. Por favor, escolha outro valor de alias para o perfil de URL do sistema &quot;%2\$s&quot;"); // FIXME HTML IN LAN
-define("LAN_EURL_SURL_UPD",    "&nbsp; URLs SEF foram atualizadas.");
-define("LAN_EURL_SURL_NUPD",    "&nbsp; URLs SEF NÃO foram atualizadas.");
+define("LAN_EURL_SURL_UPD",    "&nbsp; URLs Amigáveis foram atualizadas.");
+define("LAN_EURL_SURL_NUPD",    "&nbsp; URLs Amigáveis NÃO foram atualizadas.");
 // configurações
 define("LAN_EURL_SETTINGS_PATHINFO", "Remover nome do arquivo da URL");
 define("LAN_EURL_SETTINGS_MAINMODULE", "Associar namespace raiz");

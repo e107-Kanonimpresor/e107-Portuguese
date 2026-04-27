@@ -1,14 +1,18 @@
-# e107 Portuguese Language Pack v2.3.3
+# e107 Portuguese Language Pack v2.3.4
+
 ## Ficheiros de Língua PORTUGUESA (Portugal)
 
-* Revisão: 1.0
-* Data lançamento: 2025-05-04
-* Autor: Kanonimpresor - <kanonimpresor@gmail.com>
+- ** Revisão**: 1.0
+- ** Data lançamento**: 2025-05-04
+- ** Autor**: Kanonimpresor - <kanonimpresor@gmail.com>
 
+---
 
 ## DESCRIÇÃO
 
 Este pack de arquivo contém os ficheiros (codificação utf-8) em Português de Portugal para a versão v2.3.3 do sistema de gestão de conteúdo e107. A tradução foi efetuada a partir dos originais em Inglês da mesma versão, e contém as seguinte pastas e arquivos:
+
+---
 
 ## ESTRUCTURA DA DIRECTORIA
 ```

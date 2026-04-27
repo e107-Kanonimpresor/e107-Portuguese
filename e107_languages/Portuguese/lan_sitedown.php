@@ -18,5 +18,5 @@ if(!defined('PAGE_NAME')) // FIXME.
 }
 
 define("LAN_SITEDOWN_00", "está temporariamente fechado");
-define("LAN_SITEDOWN_01", "Encerrámos temporariamente o site para uma manutenção essencial. Isto não deverá demorar muito — volta a verificar em breve. Pedimos desculpa pelo incómodo.");
+define("LAN_SITEDOWN_01", "Encerrámos temporariamente para uma manutenção essencial. Isto não deverá demorar muito — volta a verificar em breve. Pedimos desculpa pelo incómodo.");
 

@@ -357,8 +357,8 @@ define("LAN_UPLOAD_SERVEROFF", "Esta opção está desativada pois o upload de f
 define("LAN_WIDTH","Largura");
 define("LAN_HEIGHT","Altura");
 
-define("LAN_ON","Ligado");
-define("LAN_OFF", "Desligado");
+define("LAN_ON","ON");
+define("LAN_OFF", "OFF");
 define("LAN_DISABLE", "Desativar");
 define("LAN_DISABLED","Desativado");
 define("LAN_ENABLE", "Ativar");

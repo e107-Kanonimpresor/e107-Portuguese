@@ -23,15 +23,37 @@ define("USRLAN_10", "Utilizador eliminado.");
 define("USRLAN_11", "Eliminação cancelada.");
 define("USRLAN_12", "Não pode eliminar o administrador principal do site.");
 define("USRLAN_13", "Por favor, confirme se deseja eliminar este membro");
+// define("USRLAN_14", "once deleted the record cannot be retrieved");
+// define("USRLAN_15", "Cancel");
 define("USRLAN_16", "Confirmar eliminação");
 define("USRLAN_17", "Confirmar eliminação do utilizador");
+// define("USRLAN_18", "User activated.");
+// define("USRLAN_19", "Search");
+// define("USRLAN_20", "Order by");
+// define("USRLAN_21", "User ID");
+// define("USRLAN_22", "User name");
+// define("USRLAN_23", "Visits to site");
+// define("USRLAN_24", "Admin status");
+// define("USRLAN_25", "Status");
+// define("USRLAN_26", "Descending");
+// define("USRLAN_27", "Ascending");
+// define("USRLAN_28", "Sort");
+
 define("USRLAN_30", "Banir");
+// define("USRLAN_31", "Ban -inactivated-");
 define("USRLAN_32", "Ativar");
 define("USRLAN_33", "Desbanir");
 define("USRLAN_34", "Remover status de administrador");
 define("USRLAN_35", "Tornar administrador");
 define("USRLAN_36", "Definir classe");
+
+// define("USRLAN_37", "Members");
+// define("USRLAN_38", "Search returned");
+// define("USRLAN_39", "result(s)");
+// define("USRLAN_40", "None defined");
+
 define("USRLAN_44", "Permitir que os membros carreguem um avatar?");
+
 define("USRLAN_47", "Largura máxima do avatar (em pixels)");
 define("USRLAN_48", "o padrão é 120");
 define("USRLAN_49", "Altura máxima do avatar (em pixels)");
@@ -47,6 +69,7 @@ define("USRLAN_58", "carregamento de ficheiros desativado no php.ini");
 define("USRLAN_59", "Adicionar utilizador rápido");
 define("USRLAN_60", "Adicionar utilizador");
 define("USRLAN_61", "Nome de exibição");
+//define("USRLAN_62", "Password");//LAN_PASSWORD
 define("USRLAN_63", "Repetir a palavra-passe");
 define("USRLAN_64", "Endereço de email");
 define("USRLAN_65", "Esse nome de exibição não pode ser aceito como válido, por favor escolha um nome de exibição diferente");
@@ -54,20 +77,33 @@ define("USRLAN_66", "Esse nome de exibição já existe na base de dados, por fa
 define("USRLAN_67", "As duas palavras-passe não coincidem");
 define("USRLAN_68", "Deixou campos obrigatórios em branco");
 define("USRLAN_69", "Isso não parece ser um endereço de email válido");
+// define("USRLAN_70", "User created");
+// define("USRLAN_71", "Users Front Page"); // Moved to lan_admin.php and renamed "User List"
+// define("USRLAN_72", "Quick Add User"); // Use: LAN_USER_QUICKADD
+// define("USRLAN_73", "Prune Users"); // Use: LAN_USER_PRUNE
+// define("USRLAN_75", "Options"); // Use: LAN_OPTIONS
+// define("USRLAN_76", "User Options"); // Use: LAN_USER_OPTIONS
+// define("USRLAN_77", "Existing Users"); // Use: LAN_USER_LIST;
 define("USRLAN_78", "Nome de utilizador");
 define("USRLAN_79", "Status");
 define("USRLAN_80", "Info");
+
+// define("USRLAN_82", "Are you sure you want to delete this user?");
 define("USRLAN_84", "Existem");
 define("USRLAN_85", "utilizadores que não ativaram a sua conta - clique abaixo para eliminar.");
 define("USRLAN_86", "Utilizador verificado");
 define("USRLAN_87", "Configurações do utilizador atualizadas");
 define("USRLAN_88", "Classes de utilizador atualizadas");
+
 define("USRLAN_90", "Pesquisar/Atualizar");
 define("USRLAN_91", "Classe");
 define("USRLAN_92", "Carateres inválidos no nome de utilizador");
+
 define("USRLAN_93", "Eliminar utilizadores não verificados");
 define("USRLAN_94", "Eliminar registos não verificados após este tempo - deixe em branco para não usar esta opção <br />Esta opção é ignorada se os registos de utilizadores forem moderados por um administrador");
 define("USRLAN_95", "minutos");
+
+
 define("USRLAN_112", "Reenviar E-mail");
 define("USRLAN_113", "Detalhes de registro para");
 define("USRLAN_114", "Caro");
@@ -90,6 +126,7 @@ define("USRLAN_128", "Nome de usuário (nome de login)");
 define("USRLAN_129", "Nome real");
 define("USRLAN_130", "Ativar rastreamento de usuários online");
 define("USRLAN_131", "Você deve ativar esta opção para usar as opções de rastreamento de usuários online, como online.php, informações online do fórum e menus online");
+//define("USRLAN_132", "Enable");
 
 define("USRLAN_133", "Forçar o usuário a atualizar as configurações");
 define("USRLAN_134", "Ao habilitar esta opção, o usuário será automaticamente direcionado para suas configurações de usuário caso um campo obrigatório não tenha sido preenchido.");
@@ -122,19 +159,24 @@ define("USRLAN_154", "Limpar e-mail para os selecionados");
 define("USRLAN_155", "Total de [w] e-mails encontrados. [x] excluídos através das opções.[br][y] usuários marcados como 'bounce' (de um total de [z] e-mails)");
 define("USRLAN_156", "Endereço de e-mail já está em uso");
 
+// define("USRLAN_160", "Total [x] users of type --TYPE-- pruned");
 define("USRLAN_161", "Usuário ID [x] nome [y] banido");
 define("USRLAN_162", "Usuário ID [x] nome [y] desbanido");
-
+// define("USRLAN_163", "User ID --UID-- deleted");
 define("USRLAN_164", "Usuário ID [x] nome [y] ([z]) feito administrador");
 define("USRLAN_165", "Usuário ID [x] nome [y] status de administrador revogado");
 define("USRLAN_166", "Usuário ID [x] nome [y] aprovado");
+//FIX ME USERLAN_160 - USERLAN_166 need to be reworked avoid duplication. 
 
 define("USRLAN_167", "E-mail de validação ID [x] reenviado para [y] em [z]");
-
+// define("USRLAN_168", "Re-send [x] validation emails");
 define("USRLAN_169", "Total de [x] e-mails devolvidos excluídos");
 define("USRLAN_170", "Nome de usuário aleatório");
 define("USRLAN_171", "Senha aleatória");
 define("USRLAN_172", "Conta de usuário criada com os seguintes dados:");
+// define("USRLAN_173", "Login name set");
+// define("USRLAN_174", "User name --NAME-- created");
+// define("USRLAN_175", "Session"); // Moved to lan_admin.php
 
 define("USRLAN_179", "Usuário banido: ");
 define("USRLAN_180", "Endereço IP de {IP} aparece na lista de permissões; IP não banido.");
@@ -144,12 +186,13 @@ define("USRLAN_183", "Este nome de login já está em uso");
 define("USRLAN_184", "Comprimento do nome de login fora dos limites");
 define("USRLAN_185", "Uma conta de usuário foi criada para você em {SITEURL} com o seguinte login:<br /><br /><b>Nome de Login:</b> {LOGINNAME}<br /><b>Senha:</b> {PASSWORD}<br/><b>Link de ativação:</b> {ACTIVATION_LINK}<br /><br />");
 define("USRLAN_186", "Por favor, acesse o site o mais rápido possível e faça login, depois altere sua senha usando a opção \"Configurações\".<br /><br />Você também pode alterar outras configurações ao mesmo tempo.<br /><br />Note que sua senha não pode ser recuperada caso você a perca.");
+define("USRLAN_187", "Access to website: ");
 define("USRLAN_188", "E-mail enviado com sucesso");
 define("USRLAN_189", "Erro ao enviar e-mail");
 
 define("USRLAN_190", "Período de experiência do novo usuário (dias)");
 define("USRLAN_191", "O administrador pode impor restrições durante este período em algumas áreas");
-
+define("USRLAN_192", ""); // was "days" use value in lan_date.php instead. 
 define("USRLAN_193", "Nada mudou - não salvo");
 define("USRLAN_194", "Assinatura pode ser modificada por");
 define("USRLAN_195", "Última publicação");

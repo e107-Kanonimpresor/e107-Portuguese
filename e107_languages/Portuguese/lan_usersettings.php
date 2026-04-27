@@ -59,9 +59,9 @@ define("LAN_USET_33", "Escolha o avatar armazenado no site");					// LAN_421
 define("LAN_USET_34", "Usar avatar remoto");							// LAN_422
 define("LAN_USET_35", "Por favor, digite o endereço completo da imagem");			// LAN_423
 define("LAN_USET_36", "Clique no botão para ver os avatares armazenados neste site");	// LAN_424
-define("LAN_USET_37", "Guardar definições");								// LAN_154 //TODO LAN comum?
+define("LAN_USET_37", "Guardar Definições");								// LAN_154 //TODO LAN comum?
 define("LAN_USET_38", "Escolher avatar");								// LAN_403
-define("LAN_USET_39", "Atualizar definições do utilizador");						// LAN_155
+define("LAN_USET_39", "Atualizar Definições do Utilizador");						// LAN_155
 define("LAN_USET_40", "As duas palavras-passe não coincidem");			// LAN_105
 define("LAN_USET_41", "Definições atualizadas e guardadas na base de dados.");	// LAN_150 //TODO LAN comum?
 define("LAN_USET_42", "Incompatibilidade na chave de validação");

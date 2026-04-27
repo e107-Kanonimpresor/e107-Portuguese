@@ -35,8 +35,11 @@ define("LAN_UPDATE_29", "Dependendo da sua configuração específica, pode ser 
 
 // Tudo abaixo precisa de revisão.
 
+// define("LAN_UPDATE_35", "Error modifying data in comment table");
+// define("LAN_UPDATE_36", "Error deleting old field in comment table");
 define("LAN_UPDATE_37", "Adicionar índice [x] à tabela [y]");
 define("LAN_UPDATE_38", "Atualizar configurações da página inicial");
+// define("LAN_UPDATE_39", "Update linkwords table");
 define("LAN_UPDATE_40", "Atualizar tabela de feeds de notícias");
 define("LAN_UPDATE_41", "Campo de fuso horário do usuário processado");
 define("LAN_UPDATE_42", "Erro ao transferir dados do fuso horário do usuário - abortado");
@@ -55,4 +58,13 @@ define("LAN_UPDATE_56", "Atualização do Sistema");
 
 define("LAN_UPDATE_57", "Antes de continuar, por favor, delete manualmente as seguintes pastas desatualizadas do seu sistema:");
 
+define("LAN_UPDATE_CAPTION_PLUGIN", "Atualizações de Plugins"); // Não usado
+define("LAN_UPDATE_CAPTION_CORE", "Atualizações do Núcleo"); // Não usado
+
 define("LAN_UPDATE_58", "É altamente recomendável que você execute o [File Inspector] após completar todas as atualizações, para detectar quaisquer arquivos desatualizados que precisem ser removidos.");
+
+// define("LAN_UPDATE_5", "Update available");
+// define("LAN_UPDATE_8", "Update from");
+// define("LAN_UPDATE_9", "to");
+//define("LAN_UPDATE_10", "Available Updates");
+//define("LAN_UPDATE_11", ".617 to .7 Update Continued");

@@ -40,7 +40,7 @@ define("LANG_LAN_27", "Se assinalado, e um idioma necessário não for encontrad
 //define("LANG_LAN_EML", "Por favor envia o teu pacote de idioma para:");
 define("LANG_LAN_32", "Idiomas instalados");
 define("LANG_LAN_33", "Mostrar apenas erros durante a verificação");
-define("LANG_LAN_50", "Idioma da interface da área de administração");
+define("LANG_LAN_50", "Idioma predefinido da área de administração");
 define("LANG_LAN_100", "[x] eliminado.");
 define("LANG_LAN_101", "[x] não pôde ser eliminado.");
 define("LANG_LAN_103", "[x] criado.");

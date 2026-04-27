@@ -1,15 +1,17 @@
 <?php
 /*
 +---------------------------------------------------------------+
-|        e107 sítio internet content management system Portuguese Language File
-|        Released under the terms and conditions of the
-|        GNU General Public License (http://gnu.org).
-|        Last Modified: 2024/04/25 10:27:02
+|       e107 content management system.
+|       (Portuguese language file)
 |
-|        $Author: Rica-Carv $
+|       Tradução Português(PT) -> Comunidade e107 Portugal
+|      	(http://www.e107pt.com), 2025
+|
+|       Released under the terms and conditions of the
+|       GNU General Public License (http://gnu.org).
 +---------------------------------------------------------------+
 */
 
 define("LAN_PLUGIN_HERO_NAME", "Hero");
-define("LAN_PLUGIN_HERO_SUMMARY", "Página inicial de gerenciamento da área 'Hero'");
-define("LAN_PLUGIN_HERO_DESCRIPTION", "Um controle deslizante de imagem e texto com marcadores animados para a área principal da sua página inicial.");
+define("LAN_PLUGIN_HERO_SUMMARY", "Gestão da área 'Hero' da página inicial");
+define("LAN_PLUGIN_HERO_DESCRIPTION", "Um slider de imagens e texto com pontos animados para a área hero da sua página inicial.");
