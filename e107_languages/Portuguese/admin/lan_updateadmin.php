@@ -12,11 +12,12 @@
 +---------------------------------------------------------------+
 */
 
-define("UDALAN_1", "Erro - por favor, reenvie.");
-define("UDALAN_2", "Definições do administrador atualizadas");
-define("UDALAN_3", "Definições atualizadas para");
-define("UDALAN_4", "Nome");
-//define("UDALAN_5", "Palavra-passe");//LAN_PASSWORD
-define("UDALAN_6", "Repetir palavra-passe");
-define("UDALAN_7", "Alterar palavra-passe");
-define("UDALAN_8", "Palavra-passe atualizada para");
+return [
+	'UDALAN_1' => "Erro - por favor, reenvie.",
+	'UDALAN_2' => "Definições do administrador atualizadas",
+	'UDALAN_3' => "Definições atualizadas para",
+	'UDALAN_4' => "Nome",
+	'UDALAN_6' => "Repetir palavra-passe",
+	'UDALAN_7' => "Alterar palavra-passe",
+	'UDALAN_8' => "Palavra-passe atualizada para",
+];

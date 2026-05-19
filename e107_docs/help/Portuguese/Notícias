@@ -1,27 +1,12 @@
-H1> Publicar notícias
 
-P> As notícias são a espinha dorsal da maioria dos sites e107. Os itens podem ser agrupados em categorias, agendados, ocultados por um corte "ler mais" e restringidos por classe de utilizador.
+P> Para que servem as categorias de notícias?
+R> Pode agrupar os seus artigos de notícias em diferentes categorias, e eles serão exibidos com um ícone diferente, etc., se for definido. Isso facilita a navegação dos seus visitantes e permite que leiam apenas os artigos que lhes interessam.
 
-SHOT> news/admin-newspost.png | Editor de notícias com os campos Corpo e Estendido
+P> Para que serve a caixa Estendida?
+R> Pode ter notado que alguns sites apresentam os artigos de notícias de uma forma especial, com uma pequena introdução e um link para o artigo completo. Pode fazer isso introduzindo a introdução na caixa de texto do corpo e o resto do artigo na caixa Estendida.
 
-H1> Categorias
+P> Para que servem as caixas de ativação?
+R> Pode configurar um artigo de notícias para aparecer apenas entre determinadas datas utilizando as caixas de ativação. Se as deixar em branco, as notícias que publicar aparecerão imediatamente.
 
-Q> Para que servem as categorias de notícias?
-A> Agrupam os itens de notícias em temas (por exemplo, "Lançamentos", "Comunidade"). Cada categoria pode ter o seu ícone, para que os visitantes identifiquem e filtrem itens rapidamente.
-
-H1> Corpo vs Estendido
-
-Q> Para que serve o campo Estendido?
-A> Contém a parte longa de um artigo. O campo [b]Corpo[/b] guarda uma introdução curta mostrada nas listas; o campo [b]Estendido[/b] é revelado quando o visitante clica em [i]Ler mais[/i]. Usa esta combinação sempre que o artigo completo tiver mais do que alguns parágrafos.
-
-TIP> Um Corpo curto e apelativo aumenta a taxa de clique para o artigo completo. Trata-o como se fosse a entrada de uma notícia jornalística.
-
-H1> Agendamento e visibilidade
-
-Q> Para que servem os campos de activação?
-A> Agendam quando um item de notícia fica visível. Define uma data de [b]início[/b] para publicar no futuro, uma data de [b]fim[/b] para expirar automaticamente, ou deixa ambas em branco para publicar imediatamente e indefinidamente.
-
-Q> Introduzi um item de notícia e diz "Notícia guardada na base de dados" – isso quer dizer que vai aparecer na minha página de notícias?
-A> Significa que o texto foi guardado com sucesso. Se os visitantes o veem depende do sinal [b]activo[/b] e das datas de activação: se o item estiver activo e dentro da sua janela de visibilidade, aparece na página de notícias.
-
-NOTE> Os rascunhos são úteis: deixa [b]activo[/b] desligado enquanto iteras no artigo, depois liga-o quando estiver pronto.
+P> Introduzi um artigo de notícias e diz "Notícia guardada na base de dados" - isso significa que aparecerá na minha página de notícias?
+R> Significa que o texto que introduziu foi guardado. Se o artigo de notícias que introduziu estiver configurado como ativo, então sim, ele aparecerá na sua página de notícias.

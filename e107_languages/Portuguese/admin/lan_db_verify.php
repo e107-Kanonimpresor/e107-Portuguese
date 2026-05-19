@@ -5,37 +5,37 @@
 |       (Portuguese language file)
 |
 |       Tradução Português(PT) -> Comunidade e107 Portugal
-|      	(http://www.e107pt.com), 2025
+|      	(http:
 |
 |       Released under the terms and conditions of the
-|       GNU General Public License (http://gnu.org).
+|       GNU General Public License (http:
 +---------------------------------------------------------------+
 */
-define("DBVLAN_1", "Não foi possível ler o ficheiro de dados SQL<br /><br />Por favor, certifique-se de que o ficheiro <b>core_sql.php</b> existe na pasta <b>/e107_core/sql</b>.");
-// define("DBLAN_2", "Verificando todos");
 
-define("DBVLAN_4", "Tabela");
-define("DBVLAN_5", "Campo");
-define("DBVLAN_6", "Estado");
-define("DBVLAN_7", "Notas");
-define("DBVLAN_8", "Incompatibilidade");
-define("DBVLAN_9", "Atualmente");
-define("DBVLAN_10", "deveria ser");
-define("DBVLAN_11", "Campo ausente!");
-define("DBVLAN_12", "Campo extra!");
-define("DBVLAN_13", "Tabela ausente!");
-define("DBVLAN_14", "Escolher tabela(s) para validar");
-define("DBVLAN_15", "Iniciar verificação");
-define("DBVLAN_16", "Verificação SQL");
-
-define("DBVLAN_19", "Tentar corrigir");
-
-define("DBVLAN_21", "Corrigir itens selecionados");
-define("DBVLAN_22", "[x] não é legível");
-define("DBVLAN_23", "Utilitários de Base de Dados");
-define("DBVLAN_24", "Por favor, selecione uma ação.");
-define("DBVLAN_25", "Índice ausente!");
-define("DBVLAN_26", "[x] tabela(s) têm problemas.");
-
-// NOTA IMPORTANTE: DBLAN foi substituído por DBBLAN neste ficheiro desde a versão 0.7 devido a conflitos com db.php
-
+return [
+	'DBVLAN_1' => "Não foi possível ler o ficheiro de dados SQL<br /><br />Por favor, certifique-se de que o ficheiro <b>core_sql.php</b> existe na pasta <b>/e107_core/sql</b>.",
+	'DBVLAN_4' => "Tabela",
+	'DBVLAN_5' => "Campo",
+	'DBVLAN_6' => "Estado",
+	'DBVLAN_7' => "Notas",
+	'DBVLAN_8' => "Incompatibilidade",
+	'DBVLAN_9' => "Atualmente",
+	'DBVLAN_10' => "deveria ser",
+	'DBVLAN_11' => "Campo ausente!",
+	'DBVLAN_12' => "Campo extra!",
+	'DBVLAN_13' => "Tabela ausente!",
+	'DBVLAN_14' => "Escolher tabela(s) para validar",
+	'DBVLAN_15' => "Iniciar verificação",
+	'DBVLAN_16' => "Verificação SQL",
+	'DBVLAN_17' => "O mecanismo de armazenamento deve ser [x], mas é [y]",
+	'DBVLAN_18' => "O conjunto de caracteres deve ser [x], mas é [y]",
+	'DBVLAN_19' => "Tentar corrigir",
+	'DBVLAN_21' => "Corrigir itens selecionados",
+	'DBVLAN_22' => "[x] não é legível",
+	'DBVLAN_23' => "Utilitários de Base de Dados",
+	'DBVLAN_24' => "Por favor, selecione uma ação.",
+	'DBVLAN_25' => "Índice ausente!",
+	'DBVLAN_26' => "[x] tabela(s) têm problemas.",
+    'DBVLAN_27' => "Table inconsistency",
+    'DBVLAN_28' => "Not applicable",
+];

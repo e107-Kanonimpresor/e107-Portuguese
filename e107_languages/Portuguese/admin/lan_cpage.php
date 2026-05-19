@@ -5,57 +5,61 @@
 |       (Portuguese language file)
 |
 |       Tradução Português(PT) -> Comunidade e107 Portugal
-|      	(http://www.e107pt.com), 2025
+|      	(http:
 |
 |       Released under the terms and conditions of the
-|       GNU General Public License (http://gnu.org).
+|       GNU General Public License (http:
 +---------------------------------------------------------------+
 */
-define("CUSLAN_1", "Visão Geral");
-define("CUSLAN_2", "Título da Página");
-define("CUSLAN_3", "Itens por Página");
-define("CUSLAN_4", "Campos Personalizados");
-define("CUSLAN_5", "(Novo Livro)");
 
-define("CUSLAN_9", "Texto");
-// define("CUSLAN_11", "Descrição Meta"); @see LAN_META_DESCRIPTION
-define("CUSLAN_12", "Criar Página/Menu");
-define("CUSLAN_29", "Listar páginas se nenhuma página for selecionada");
-define("CUSLAN_30", "Tempo de expiração do cookie (em segundos)");
-define("CUSLAN_31", "Criar menu");
-define("CUSLAN_48", "Lista de Páginas");
-define("CUSLAN_49", "Lista de Menus");
-define("CUSLAN_50", "Listar Livros/Capítulos");
-define("CUSLAN_51", "Adicionar Livro/Capítulo");
-define("CUSLAN_52", "Livro");
-define("CUSLAN_53", "Título do Livro ou Capítulo");
-
-define("CUSLAN_55", "Pode ser editado por");
-define("CUSLAN_56", "Pai");
-define("CUSLAN_57", "Por favor, escolha uma URL SEF única para esta entrada.");
-define("CUSLAN_58", "Ver Páginas neste capítulo");
-define("CUSLAN_59", "Página");
-define("CUSLAN_60", "Opções da Página");
-define("CUSLAN_61", "Menu");
-define("CUSLAN_62", "Opções do Menu");
-define("CUSLAN_63", "Livro/Capítulo");
-define("CUSLAN_64", "Nome do Menu");
-define("CUSLAN_65", "Título do Menu");
-define("CUSLAN_66", "Corpo do Menu");
-define("CUSLAN_67", "Template do Menu");
-define("CUSLAN_68", "Texto do Botão Personalizado");
-define("CUSLAN_69", "URL do Botão Personalizado");
-define("CUSLAN_70", "Ícone/Glyph do Menu");
-define("CUSLAN_71", "Imagem/Video do Menu");
-define("CUSLAN_72", "Template de Listagem de Livros/Capítulos");
-define("CUSLAN_73", "Menu Criado");
-define("CUSLAN_74", "Menu Atualizado");
-define("CUSLAN_75", "Menu-id ausente detectado:");
-define("CUSLAN_76", "Menu com caminho #");
-define("CUSLAN_77", "eliminado");
-define("CUSLAN_78", "Não foi possível eliminar o menu com o caminho ");
-define("CUSLAN_79", "Deve inserir um título de página ou um nome de menu.");
-define("CUSLAN_80", "Subtítulo");
-define("CUSLAN_81", "Imagem Meta");
-define("CUSLAN_82", "Opcional. Usado pelas redes sociais ao partilhar esta página.");
-
+return [
+	'CUSLAN_1' => "Visão Geral",
+	'CUSLAN_2' => "Título de página",
+	'CUSLAN_3' => "Itens por Página",
+	'CUSLAN_4' => "Campos Personalizados",
+	'CUSLAN_5' => "(Novo Livro)",
+	'CUSLAN_9' => "Texto",
+	'CUSLAN_12' => "Criar Página / Menu",
+	'CUSLAN_29' => "Listar páginas se nenhuma página for selecionada",
+	'CUSLAN_30' => "Tempo de expiração do cookie (em segundos)",
+	'CUSLAN_31' => "Criar menu",
+	'CUSLAN_48' => "Lista de Páginas",
+	'CUSLAN_49' => "Lista de Menus",
+	'CUSLAN_50' => "Listar Livros / Capítulos",
+	'CUSLAN_51' => "Adicionar Livro / Capítulo",
+	'CUSLAN_52' => "Livro",
+	'CUSLAN_53' => "Título do Livro ou Capítulo",
+	'CUSLAN_55' => "Pode ser editado por",
+	'CUSLAN_56' => "Pai",
+	'CUSLAN_57' => "Por favor, escolha uma URL SEF única para esta entrada.",
+	'CUSLAN_58' => "Ver páginas existentes neste capítulo",
+	'CUSLAN_59' => "Página",
+	'CUSLAN_60' => "Opções da Página",
+	'CUSLAN_61' => "Menu",
+	'CUSLAN_62' => "Opções do Menu",
+	'CUSLAN_63' => "Livro / Capítulo",
+	'CUSLAN_64' => "Nome do Menu",
+	'CUSLAN_65' => "Título do Menu",
+	'CUSLAN_66' => "Corpo do Menu",
+	'CUSLAN_67' => "Template do Menu",
+	'CUSLAN_68' => "Texto do Botão Personalizado",
+	'CUSLAN_69' => "URL do Botão Personalizado",
+	'CUSLAN_70' => "Ícone / Glyph do Menu",
+	'CUSLAN_71' => "Imagem / Video do Menu",
+	'CUSLAN_72' => "Listagem de plantilhas de Livros / Capítulos",
+	'CUSLAN_73' => "Menu Criado",
+	'CUSLAN_74' => "Menu Atualizado",
+	'CUSLAN_75' => "Menu-id ausente detectado:",
+	'CUSLAN_76' => "Menu com caminho #",
+	'CUSLAN_77' => "eliminado",
+	'CUSLAN_78' => "Não foi possível eliminar o menu com o caminho ",
+	'CUSLAN_79' => "Deve inserir um título de página ou um nome de menu.",
+	'CUSLAN_80' => "Subtítulo",
+	'CUSLAN_81' => "Imagem Meta",
+	'CUSLAN_82' => "Opcional. Usado pelas redes sociais ao partilhar esta página.",
+	'CUSLAN_83' => "Será listado no Gestor de Menus com este nome ou pode ser chamado usando {CMENU=nome} no teu tema. Deve usar apenas caracteres ASCII e estar em minúsculas.",
+	'CUSLAN_84' => "Legenda exibida no item do menu.",
+	'CUSLAN_85' => "Deixar em branco para usar o padrão",
+	'CUSLAN_86' => "Deixar em branco para usar a página correspondente",
+	'CUSLAN_87' => "Contagem de Páginas",
+];

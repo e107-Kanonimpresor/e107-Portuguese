@@ -12,16 +12,18 @@
 +---------------------------------------------------------------+
 */
 
-define("UC_LAN_0", "Todos (público)");
-define("UC_LAN_1", "Visitantes");
-define("UC_LAN_2", "Ninguém (inativo)");
-define("UC_LAN_3", "Membros");
-define("UC_LAN_4", "Apenas leitura");
-define("UC_LAN_5", "Administrador");
-define("UC_LAN_6", "Administrador principal");
-define("UC_LAN_7", "Moderadores do fórum");
-define("UC_LAN_8", "Administradores e Moderadores");
-define("UC_LAN_9", "Novos utilizadores");
-define("UC_LAN_10", "Bots de pesquisa");
-define("UC_LAN_INVERT", "Não [x]");
-define("UC_LAN_INVERTLABEL", "Todos, exceto..");
+return [
+	'UC_LAN_0' => "Todos (público)",
+	'UC_LAN_1' => "Visitantes",
+	'UC_LAN_2' => "Ninguém (inativo)",
+	'UC_LAN_3' => "Membros",
+	'UC_LAN_4' => "Apenas leitura",
+	'UC_LAN_5' => "Administrador",
+	'UC_LAN_6' => "Administrador principal",
+	'UC_LAN_7' => "Moderadores do fórum",
+	'UC_LAN_8' => "Administradores e Moderadores",
+	'UC_LAN_9' => "Novos utilizadores",
+	'UC_LAN_10' => "Bots de pesquisa",
+	'UC_LAN_INVERT' => "Não [x]",
+	'UC_LAN_INVERTLABEL' => "Todos, exceto..",
+];

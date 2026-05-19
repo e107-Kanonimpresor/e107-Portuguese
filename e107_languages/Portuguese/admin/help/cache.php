@@ -14,8 +14,7 @@
 
 if (!defined('e107_INIT')) { exit; }
 
-$caption = "Ajuda:<br />
-			# Sistema de Cache";
+$caption = "Ajuda:<br /># Sistema de Cache";
 $text = "Se você tiver o cache ativado, isso melhorará enormemente a velocidade do seu site e minimizará o número de chamadas ao banco de dados SQL.<br /><br />
 		<b>IMPORTANTE! Se você estiver criando seu próprio tema, desative o cache, caso contrário, quaisquer alterações feitas não serão refletidas imediatamente.</b>";
 $ns -> tablerender($caption, $text);

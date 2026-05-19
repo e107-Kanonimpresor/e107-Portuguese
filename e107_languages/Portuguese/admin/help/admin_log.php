@@ -14,8 +14,7 @@
 
 if (!defined('e107_INIT')) { exit; }
 
-$caption = "Ajuda:<br />
-			# Registos do Sistema";
+$caption = "Ajuda:<br /># Registos do Sistema";
 if (e_QUERY) list($action,$junk) = explode('.', e_QUERY); else $action = 'list';
 
 function common_filters()
@@ -71,4 +70,4 @@ default :
   (Atualmente, a funcionalidade de registo ainda está a ser implementada no código, por isso a lista não está completa.)<br /><br />";
   $text .= common_filters();
 }
-$ns -> tablerender($caption, $text);
+e107::getRender()->tablerender($caption, $text);

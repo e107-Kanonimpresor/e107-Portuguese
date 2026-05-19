@@ -12,25 +12,22 @@
 +---------------------------------------------------------------+
 */
 
-if(!defined('PAGE_NAME'))
-{
-	define("PAGE_NAME", "Publicações do Utilizador"); // todo arranjar isto
-}
-
-define("UP_LAN_0", "Todas as Publicações no Fórum de [x]");
-define("UP_LAN_1", "Todos os Comentários de [x]");
-define("UP_LAN_2", "Tópico");
-define("UP_LAN_3", "Visualizações");
-define("UP_LAN_4", "Respostas");
-define("UP_LAN_5", "Última publicação");
-define("UP_LAN_6", "Tópicos");
-define("UP_LAN_7", "Sem Comentários");
-define("UP_LAN_8", "Sem Publicações");
-define("UP_LAN_9", " em ");
-define("UP_LAN_10", "Re");
-define("UP_LAN_11", "Publicado em");
-define("UP_LAN_12", "Pesquisa");
-// define("UP_LAN_13", "Comentários");
-define("UP_LAN_14", "Publicações no Fórum");
-define("UP_LAN_15", "Re");
-define("UP_LAN_16", "Endereço IP");
+return [
+	'PAGE_NAME' => "Publicações do Utilizador",
+	'UP_LAN_0' => "Todas as Publicações no Fórum de [x]",
+	'UP_LAN_1' => "Todos os Comentários de [x]",
+	'UP_LAN_2' => "Tópico",
+	'UP_LAN_3' => "Visualizações",
+	'UP_LAN_4' => "Respostas",
+	'UP_LAN_5' => "Última publicação",
+	'UP_LAN_6' => "Tópicos",
+	'UP_LAN_7' => "Sem Comentários",
+	'UP_LAN_8' => "Sem Publicações",
+	'UP_LAN_9' => " em ",
+	'UP_LAN_10' => "Re",
+	'UP_LAN_11' => "Publicado em",
+	'UP_LAN_12' => "Pesquisa",;
+	'UP_LAN_14' => "Publicações no Fórum",
+	'UP_LAN_15' => "Re",
+	'UP_LAN_16' => "Endereço IP",
+];

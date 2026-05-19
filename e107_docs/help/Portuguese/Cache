@@ -1,18 +1,9 @@
-H1> Sobre a cache
 
-P> A cache armazena fragmentos já renderizados do teu site para que o e107 não tenha de os reconstruir em cada pedido. Bem afinada, reduz dramaticamente a carga no MySQL e encurta os tempos de resposta.
+P> Para que serve esta secção?
+R> Ativar o estado da cache irá guardar certas áreas do teu site na base de dados. Isto reduz os pedidos ao MySQL e acelera significativamente o desempenho do teu site.
 
-SHOT> cache/admin-cache.png | Painel de estado da cache com os botões para limpar
+P> Fiz algumas alterações ao tema que estou a usar, mas nada mudou – será por causa da cache?
+R> Muito provavelmente. Ao mudares de tema, a cache é limpa automaticamente, mas se apenas alterares o código no ficheiro theme.php, a cache não será limpa. Desativa o estado da cache até terminares as tuas alterações.
 
-Q> Para que serve esta secção?
-A> Definir o [b]Estado da Cache[/b] como [i]activo[/i] guarda certas áreas do teu site (menus, listas de notícias, etc.). Isto reduz chamadas ao MySQL e acelera enormemente o site.
-
-Q> Alterei o tema que estou a usar mas a alteração não é visível – estará em cache?
-A> Muito provavelmente sim. Mudar de tema limpa a cache automaticamente, mas editar `theme.php` não. Ou desactivas a cache enquanto fazes alterações, ou clicas em [b]Limpar cache[/b] depois de cada modificação.
-
-TIP> Enquanto desenvolves um tema ou plugin, define o Estado da Cache como [i]inactivo[/i]. Volta a activar antes de entrar em produção.
-
-Q> Posso guardar a cache em ficheiros no disco rígido?
-A> Sim. Garante que o directório `e107_system/<sitehash>/cache/` tem permissão de escrita (chmod 755 / 775 em Linux), depois activa a opção de cache em ficheiros nesta página.
-
-WARN> Se acidentalmente guardares em cache uma versão de utilizador autenticado, termina a sessão e limpa a cache imediatamente para evitar expor conteúdo ligado à sessão aos visitantes.
+P> Posso guardar a cache em ficheiros no disco rígido?
+R> Sim. Apenas garante que o diretório e107_files/cache tem permissões de escrita (chmod 777). Depois, ativa a opção correspondente na página de cache.

@@ -14,7 +14,6 @@
 
 if (!defined('e107_INIT')) { exit; }
 
-$caption = "Ajuda:<br />
-			# Banco de Dados";
+$caption = "Ajuda:<br /># Banco de Dados";
 $text = "Essa coleção de ferramentas permite-lhe administrar seu banco de dados.";
 $ns -> tablerender($caption, $text);

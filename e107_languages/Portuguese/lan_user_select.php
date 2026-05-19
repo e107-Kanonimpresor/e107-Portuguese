@@ -14,9 +14,11 @@
 
 // DEPRECADO - SUJEITO A REMOÇÃO
 
-define("US_LAN_1", "Selecionar utilizador");
-define("US_LAN_2", "Selecionar classe de utilizador");
-define("US_LAN_3", "Todos os utilizadores");
-define("US_LAN_4", "Procurar nome de utilizador");
-define("US_LAN_5", "Utilizador(es) encontrado(s)");
-define("US_LAN_6", "Procurar");
+return [
+	'US_LAN_1' => "Selecionar utilizador",
+	'US_LAN_2' => "Selecionar classe de utilizador",
+	'US_LAN_3' => "Todos os utilizadores",
+	'US_LAN_4' => "Procurar nome de utilizador",
+	'US_LAN_5' => "Utilizador(es) encontrado(s)",
+	'US_LAN_6' => "Procurar",
+];

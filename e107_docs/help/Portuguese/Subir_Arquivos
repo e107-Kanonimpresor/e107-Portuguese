@@ -1,24 +1,6 @@
-H1> Aceitar envios em segurança
 
-P> Permitir que os visitantes enviem ficheiros é poderoso, mas é também uma das maiores superfícies de ataque de qualquer CMS. O e107 vem com defaults sensatos; as dicas abaixo apertam ainda mais os parafusos.
+P> Gostaria de permitir que as pessoas carregassem ficheiros para o meu site, mas estou preocupado com a segurança...
+R> Há algumas coisas que pode fazer para melhorar a segurança. Primeiro, use o armazenamento binário, assim os ficheiros carregados serão armazenados na base de dados MySQL e não serão acessíveis por ninguém, exceto para download. Além disso, defina a lista de tipos de ficheiros permitidos; se alguém tentar carregar um tipo de ficheiro diferente dos tipos que você definiu, será eliminado imediatamente do seu servidor.
 
-WARN> Nunca aceites tipos de ficheiro arbitrários de utilizadores anónimos. A lista de [b]tipos permitidos[/b] é a tua defesa mais importante.
-
-Q> Gostaria de permitir que as pessoas enviem ficheiros para o meu site mas preocupa-me a segurança…
-A> Duas definições fazem uma enorme diferença:
-
-STEP> Usa [b]armazenamento binário[/b] – os ficheiros enviados são escritos para a base de dados MySQL, não para um directório público, por isso não podem ser linkados directamente nem executados.
-STEP> Define uma lista de [b]tipos de ficheiro permitidos[/b]. Qualquer coisa fora da lista é rejeitada e eliminada do servidor imediatamente.
-
-TIP> Restringe os envios a classes de utilizador específicas (ver a página de ajuda Classes) para que apenas membros verificados possam enviar. Combinado com as duas definições acima, isto reduz dramaticamente o abuso.
-
-H1> O que fazer quando um ficheiro for enviado
-
-Q> Recebi alguns ficheiros enviados – o que faço agora?
-A> A partir do ecrã de revisão de envios podes:
-
-STEP> Copiar o ficheiro para o [b]Gestor de Transferências[/b] para que outros o possam descarregar.
-STEP> Enviar os metadados do envio para o formulário de [b]Notícias[/b] para anunciar o ficheiro num item de notícia.
-STEP> Rejeitar o envio se não cumprir as tuas directrizes – o ficheiro é então removido.
-
-NOTE> Revê sempre os envios antes de os publicar. Mesmo com filtragem por tipo de ficheiro, moderação ao nível do conteúdo (direitos de autor, conteúdo sensível, relatórios de malware) não pode ser automatizada de forma fiável.
+P> Recebi alguns ficheiros carregados, o que devo fazer agora?
+R> Tem a opção de copiar o ficheiro para o seu Gestor de Downloads, para permitir que outros o baixem, e copiar as informações do carregamento para a seção de notícias, para fazer um anúncio de um item de notícia sobre isso.

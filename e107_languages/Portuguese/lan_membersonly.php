@@ -12,13 +12,11 @@
 +---------------------------------------------------------------+
 */
 
-if(!defined('PAGE_NAME'))
-{
-	define("PAGE_NAME", "Área Exclusiva para Membros");
-}
-
-define("LAN_MEMBERS_0", "área restrita");
-define("LAN_MEMBERS_1", "Esta é uma área restrita.");
-define("LAN_MEMBERS_2", "Para aceder, por favor [inicie sessão]");
-define("LAN_MEMBERS_3", "ou [registre-se] como membro.");
-define("LAN_MEMBERS_4", "Clique aqui para voltar à página principal.");
+return [
+	'PAGE_NAME' => "Só Membros",
+	'LAN_MEMBERS_0' => "área restrita",
+	'LAN_MEMBERS_1' => "Esta é uma área restrita.",
+	'LAN_MEMBERS_2' => "Para aceder, por favor [inicie sessão]",
+	'LAN_MEMBERS_3' => "ou [registre-se] como membro.",
+	'LAN_MEMBERS_4' => "Clique aqui para voltar à página principal.",
+];

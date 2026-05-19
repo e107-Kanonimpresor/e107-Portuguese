@@ -12,11 +12,12 @@
 +---------------------------------------------------------------+
 */
 
-define("LANMAILH_1", "Produzido pelo sistema de website e107");
-define("LANMAILH_2", "Esta é uma mensagem multi-partes no formato MIME.");
-define("LANMAILH_3", " não está formatado corretamente");
-define("LANMAILH_4", "Endereço rejeitado pelo servidor");
-define("LANMAILH_5", "Sem resposta do servidor");
-define("LANMAILH_6", "Não foi possível encontrar o servidor de email.");
-define("LANMAILH_7", " parece ser válido.");
-
+return [
+	'LANMAILH_1' => "Produzido pelo sistema de website e107",
+	'LANMAILH_2' => "Esta é uma mensagem multi-partes no formato MIME.",
+	'LANMAILH_3' => " não está formatado corretamente",
+	'LANMAILH_4' => "Endereço rejeitado pelo servidor",
+	'LANMAILH_5' => "Sem resposta do servidor",
+	'LANMAILH_6' => "Não foi possível encontrar o servidor de email.",
+	'LANMAILH_7' => " parece ser válido.",
+];

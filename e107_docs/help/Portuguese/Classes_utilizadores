@@ -1,22 +1,10 @@
-H1> Explicação das classes de utilizador
 
-P> As classes de utilizador são a primitiva de permissões do e107. Praticamente todas as definições de visibilidade do site (notícias, links, transferências, menus, BBCodes individuais…) são expressas como "disponível para a classe X".
+P> O que são essas classes de utilizador que vejo por todo o lado? Para que servem?
+R> As classes de utilizador servem para restringir o acesso a certas áreas ou funções do teu site. Se definires uma classe e adicionares utilizadores a ela, podes tornar certas funcionalidades visíveis apenas para os membros dessa classe.
+Por exemplo, há uma classe que é criada por defeito ao instalares o e107, chamada PRIVATEFORUM. Ao adicionares utilizadores a essa classe e criares um fórum associado, só esses utilizadores poderão aceder a esse fórum. Também podes restringir outras áreas e funções por classe, como notícias, ligações, transferências, etc.
 
-Q> O que são essas classes de utilizador que vejo por todo o lado? Para que servem?
-A> As classes de utilizador restringem o acesso a certas áreas ou funções do site. Define uma classe, adiciona utilizadores, e podes delimitar conteúdo para que [b]apenas[/b] os membros dessa classe o vejam.
+P> Para que serve o campo 'classe pai'?
+R> Na versão 2.x, podes definir uma "hierarquia de classes", onde os utilizadores de uma classe herdam os direitos da classe pai. Se não quiseres isso, basta definir a classe pai como "Todos".
 
-P> Um exemplo embutido é a classe `PRIVATEFORUM`: ao adicionares utilizadores a ela e criares um fórum visível apenas para essa classe, o fórum torna-se invisível para todos os outros.
-
-H1> Hierarquia e herança
-
-Q> Para que serve o campo [b]classe pai[/b]?
-A> Desde a versão 2.x podes construir uma hierarquia de classes: os utilizadores de uma classe filha herdam automaticamente os direitos da classe pai. Define o pai como [b]Todos[/b] para desactivar a herança.
-
-TIP> Usa uma hierarquia quando tens níveis de membresia (por exemplo, Membro → Premium → Vitalício). Um utilizador premium tem automaticamente todos os privilégios de membro sem ter de estar em duas classes.
-
-H1> Pertença por defeito para novos utilizadores
-
-Q> Quero que os novos utilizadores comecem com pertença a determinadas classes.
-A> Abre o menu [b]Classe de Utilizador[/b] e activa as classes que queres atribuídas automaticamente no registo. Também podes escolher se a pertença é concedida imediatamente, ou só quando a conta for verificada.
-
-WARN> Tem cuidado com as classes marcadas como "por defeito no registo" – qualquer registo abusivo herdará esses privilégios.
+P> Quero que os novos utilizadores comecem como membros de determinadas classes.
+R> Agora podes definir a pertença inicial a classes através do menu "Classe de utilizador". Também podes escolher se essa pertença entra em vigor logo após o registo ou apenas quando a conta for verificada.

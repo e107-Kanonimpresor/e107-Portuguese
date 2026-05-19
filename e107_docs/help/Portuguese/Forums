@@ -1,26 +1,15 @@
-H1> Administração de fóruns
 
-P> Os fóruns organizam-se em [b]pais[/b] (categorias), com moderadores, acompanhamento e políticas de poda opcionais por fórum.
+P> O que são os fóruns pais?
+R> Um fórum pai é um título sob o qual outros fóruns são agrupados. Isso torna mais fácil a navegação pelos fóruns.
 
-SHOT> forums/forum-admin.png | Árvore de fóruns com pais e fóruns filhos
+P> Quero tornar um administrador moderador de um fórum, mas o nome dele não aparece na lista, porquê?
+R> Os administradores só aparecerão se tiverem os permissões corretas para serem moderadores de fóruns. Vai à seção de Administradores, edita o administrador em questão e garante-te de que a opção 'Moderar fóruns' está marcada.
 
-Q> O que são os fóruns pais?
-A> Um pai é um cabeçalho usado para agrupar outros fóruns. Os pais facilitam a navegação quando tens muitos fóruns.
+P> O que é o acompanhamento?
+R> Se tiveres esta opção ativada, os utilizadores poderão acompanhar um tópico no fórum; receberão um e-mail quando alguém responder ao tópico.
 
-H1> Moderação
+P> O que é a poda (pruning)?
+R> Isto permite eliminar tópicos antigos que não receberam respostas dentro de um determinado tempo. Tenha cuidado com esta função, uma vez eliminados os tópicos, não poderão ser recuperados.
 
-Q> Quero tornar um administrador moderador de um fórum mas o nome dele não aparece na lista – porquê?
-A> Um administrador só aparece como candidato a moderador se tiver a permissão [b]Moderar Fóruns[/b]. Abre [b]Admin → Administradores[/b], edita o administrador e activa essa permissão.
-
-Q> O que são mensagens reportadas?
-A> Os utilizadores podem reportar mensagens que considerem inadequadas. O tópico reportado aparece na fila de moderação, onde podes lê-lo em contexto e agir (apagar, trancar, avisar o utilizador, etc.).
-
-H1> Subscrições e limpeza
-
-Q> O que é o acompanhamento?
-A> Quando o acompanhamento está activo, os utilizadores podem subscrever um tópico e receber um e-mail sempre que uma nova resposta é publicada.
-
-Q> O que é a poda (pruning)?
-A> A poda remove automaticamente tópicos que não receberam resposta dentro de um período configurável.
-
-WARN> A poda é destrutiva – os tópicos apagados não podem ser recuperados. Testa primeiro num fórum de pouco tráfego e mantém cópias de segurança regulares da base de dados.
+P> O que são as mensagens reportadas?
+R> Os utilizadores podem reportar mensagens que considerem conter conteúdo impróprio. Podes abrir o tópico reportado e moderá-lo como desejado.

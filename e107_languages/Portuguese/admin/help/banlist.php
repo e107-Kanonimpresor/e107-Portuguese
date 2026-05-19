@@ -14,9 +14,7 @@
 
 if (!defined('e107_INIT')) { exit; }
 
-$caption = "Ajuda:<br />
-			# Bloqueio de Utilizadores";
-			
+$caption = "Ajuda:<br /># Bloqueio de Utilizadores";
 if (e_QUERY) list($action,$junk) = explode('-',e_QUERY.'-'); else $action = 'list';  // Separador não padrão na query
 
 switch ($action)
@@ -92,4 +90,4 @@ Podes definir períodos de expiração para cada bloqueio, sendo removidos autom
 permanecem até remoção manual.<br />
 Podes ajustar o período de bloqueio nesta página - os tempos são calculados a partir do momento atual.';
 }
-$ns -> tablerender($caption, $text);
+e107::getRender()->tablerender($caption, $text);

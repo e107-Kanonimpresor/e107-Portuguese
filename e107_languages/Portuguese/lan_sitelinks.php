@@ -12,5 +12,6 @@
 +---------------------------------------------------------------+
 */
 
-define("LAN_SITELINKS_183", "Menu Principal");
-//define("LAN_SITELINKS_502", "Área de Administração");//NÃO UTILIZADO
+return [
+	'LAN_SITELINKS_183' => "Menu Principal",
+];

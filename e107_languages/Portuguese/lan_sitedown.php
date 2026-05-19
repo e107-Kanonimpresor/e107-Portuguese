@@ -12,11 +12,8 @@
 +---------------------------------------------------------------+
 */
 
-if(!defined('PAGE_NAME')) // FIXME.
-{
-	define("PAGE_NAME", "Site temporariamente fechado");
-}
-
-define("LAN_SITEDOWN_00", "está temporariamente fechado");
-define("LAN_SITEDOWN_01", "Encerrámos temporariamente o site para uma manutenção essencial. Isto não deverá demorar muito — volta a verificar em breve. Pedimos desculpa pelo incómodo.");
-
+return [
+	'PAGE_NAME' => "Portal Temporariamente Fechado",
+	'LAN_SITEDOWN_00' => "Temporariamente Encerrado",
+	'LAN_SITEDOWN_01' => "Encerrámos temporariamente o nosso portal para realizar manutenção e implementar novas funcionalidades. Isto não deverá demorar muito — volta a verificar em breve. Pedimos desculpa pelo incómodo.",
+];

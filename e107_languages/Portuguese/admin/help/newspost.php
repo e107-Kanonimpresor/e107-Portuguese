@@ -54,4 +54,4 @@ Requer que os usuários que podem enviar notícias também possam postar HTML.
 	$text = 'Lista de todas as notícias. Para editar ou excluir, clique em um dos ícones da coluna \'opções\'. Para visualizar o item, clique
 na identificação.';
 }
-$ns -> tablerender($caption, $text);
+e107::getRender()->tablerender($caption, $text);

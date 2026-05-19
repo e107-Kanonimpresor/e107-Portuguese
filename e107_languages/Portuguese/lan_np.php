@@ -12,20 +12,18 @@
 +---------------------------------------------------------------+
 */
 
-define("NP_1", "Página anterior");
-define("NP_2", "Página seguinte");
-//define("NP_3", "Ir para a página"); // Genérico
-
-// 0.8
-define("LAN_NP_FIRST", "primeira");
-define("LAN_NP_URLFIRST", "Ir para a primeira página");
-define("LAN_NP_PREVIOUS", "anterior");
-define("LAN_NP_URLPREVIOUS", "Ir para a página anterior");
-define("LAN_NP_NEXT", "seguinte");
-define("LAN_NP_URLNEXT", "Ir para a próxima página");
-define("LAN_NP_LAST", "última");
-define("LAN_NP_URLLAST", "Ir para a última página");
-define("LAN_NP_GOTO", "Ir para a página [x]");
-define("LAN_NP_URLCURRENT", "Página atual");
-
-define("NP_CAPTION", "Página [x] de [y]");
+return [
+	'NP_1' => "Página anterior",
+	'NP_2' => "Página seguinte",
+	'LAN_NP_FIRST' => "primeira",
+	'LAN_NP_URLFIRST' => "Ir para a primeira página",
+	'LAN_NP_PREVIOUS' => "anterior",
+	'LAN_NP_URLPREVIOUS' => "Ir para a página anterior",
+	'LAN_NP_NEXT' => "seguinte",
+	'LAN_NP_URLNEXT' => "Ir para a próxima página",
+	'LAN_NP_LAST' => "última",
+	'LAN_NP_URLLAST' => "Ir para a última página",
+	'LAN_NP_GOTO' => "Ir para a página [x]",
+	'LAN_NP_URLCURRENT' => "Página atual",
+	'NP_CAPTION' => "Página [x] de [y]",
+];
