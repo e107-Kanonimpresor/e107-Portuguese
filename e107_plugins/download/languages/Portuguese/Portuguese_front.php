@@ -49,4 +49,5 @@ return [
     'LAN_dl_77' => "Transferências",
     'LAN_dl_78' => "Essa transferência foi desativada ou descontinuada. Verifica na [área de transferências] se há uma versão mais recente.",
     'LAN_dl_79' => "Não tens permissões para comunicar este item como estando com erro.",
+    'LAN_dl_80' => "Voltar a [x]",
 ];

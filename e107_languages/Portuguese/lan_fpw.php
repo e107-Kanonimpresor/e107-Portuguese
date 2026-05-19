@@ -47,4 +47,5 @@ return [
 	'LAN_FPW_100' => "Esqueceu-se da sua palavra-passe?",
 	'LAN_FPW_101' => "Não se preocupe. Basta inserir o seu endereço de e-mail abaixo e enviaremos um e-mail com instruções para recuperá-la.",
 	'LAN_FPW_102' => "Redefinir Palavra-passe",
+	'LAN_FPW_MISCONFIGURED' => "A redefinição de palavra-passe não está disponível devido a um problema de configuração do site. Por favor, contacta o administrador do site.",
 ];

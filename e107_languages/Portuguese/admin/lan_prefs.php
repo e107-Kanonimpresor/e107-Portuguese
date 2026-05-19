@@ -271,4 +271,6 @@ return [
 	'PRFLAN_285' => "Exibir dicas de ajuda nos campos",
 	'PRFLAN_286' => "Filtros de conteúdo",
 	'PRFLAN_287' => "Apresentar botão de depuração na área de administração",
+	'PRFLAN_288' => "Hosts confiáveis",
+	'PRFLAN_289' => "Nomes de host adicionais que o site aceitará no cabeçalho Host, um por linha. O host extraído do URL do site é sempre confiável; as entradas aqui são adicionadas a essa lista. Se colares um URL completo, o valor guardado é normalizado apenas para o host.",
 ];

@@ -35,4 +35,5 @@ return [
 	'LAN_EMAIL_189' => "Pensei que poderias estar interessado neste artigo de",
 	'LAN_EMAIL_190' => "Introduz o código visível",
 	'LAN_SOCIAL_LINK_CHK' => "Consulta este link: ",
+	'PAGE_NAME' => "E-mail",
 ];
