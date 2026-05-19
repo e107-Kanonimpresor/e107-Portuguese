@@ -96,7 +96,7 @@ return [
 	'USRLAN_136' => "Vários usuários encontrados com o endereço IP {IP}; IP não banido.",
 	'USRLAN_137' => "Endereço IP do usuário {IP} banido.",
 	'USRLAN_138' => "Usuários não verificados",
-	'USRLAN_139' => "Sua conta foi ativada.\n\nVocê pode acessar {SITEURL} e fazer login no site usando as informações de login fornecidas.",
+	'USRLAN_139' => "Sua conta foi ativada.\\n\\nVocê pode acessar {SITEURL} e fazer login no site usando as informações de login fornecidas.",
 	'USRLAN_140' => "E-mail de ativação reenviado para",
 	'USRLAN_141' => "Falha ao reenviar o e-mail de ativação para",
 	'USRLAN_142' => "com o seguinte link de ativação",

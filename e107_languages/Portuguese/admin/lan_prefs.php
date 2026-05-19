@@ -264,7 +264,7 @@ return [
 	'PRFLAN_278' => "URL para a Política de Privacidade",
 	'PRFLAN_279' => "Certifique-se de que a URL existe! É melhor usar uma URL absoluta. Esta configuração será usada em todos os locais que exigem consentimento do utilizador (ex.: registo, formulário de contato/menu, etc.).",
 	'PRFLAN_280' => "URL para os termos e condições do site",
-	'PRFLAN_281' => "Os 2 links acima são usados em várias páginas deste site (ex.: registo e formulário de contato/menu).\nPor favor, crie 2 páginas (se ainda não estiverem criadas) que contenham a 'Política de Privacidade' e os 'Termos e Condições' do site.\nExistem vários sites que podem gerar este texto para você.\nCopie as URLs desses sites nos campos acima (ex.: /page/privacy-policy ou /page/terms-and-conditions).\nCertifique-se de que as páginas e URLs existem e estão a funcionar!",
+	'PRFLAN_281' => "Os 2 links acima são usados em várias páginas deste site (ex.: registo e formulário de contato/menu).\\nPor favor, crie 2 páginas (se ainda não estiverem criadas) que contenham a 'Política de Privacidade' e os 'Termos e Condições' do site.\\nExistem vários sites que podem gerar este texto para você.\\nCopie as URLs desses sites nos campos acima (ex.: /page/privacy-policy ou /page/terms-and-conditions).\\nCertifique-se de que as páginas e URLs existem e estão a funcionar!",
 	'PRFLAN_282' => "Método de salvamento da sessão",
 	'PRFLAN_283' => "Exibir rótulos da barra de navegação",
 	'PRFLAN_284' => "Colapsar a barra lateral de navegação por padrão",
