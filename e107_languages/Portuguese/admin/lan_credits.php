@@ -2,10 +2,10 @@
 /*
 +---------------------------------------------------------------+
 |       e107 content management system.
-|       Spanish language file)
+|       (Portuguese language file)
 |
-|       Traducción Spanish(ES) -> KANONimpresor
-|       (http://www.kanonimpresor.com), 2025
+|       Tradução Português(pt-PT) -> KANONimpresor
+|       (https://marketingdeperformance.online/), 2026
 |
 |       Released under the terms and conditions of the
 |       GNU General Public License (http://gnu.org).

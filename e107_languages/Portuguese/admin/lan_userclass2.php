@@ -4,11 +4,11 @@
 |       e107 content management system.
 |       (Portuguese language file)
 |
-|       Tradução Português(PT) -> Comunidade e107 Portugal
-|      	(http:
+|       Tradução Português(pt-PT) -> KANONimpresor
+|       (https://marketingdeperformance.online/), 2026
 |
 |       Released under the terms and conditions of the
-|       GNU General Public License (http:
+|       GNU General Public License (http://gnu.org).
 +---------------------------------------------------------------+
 */
 //define("UCSLAN_1", "Cleared all users from class.");
