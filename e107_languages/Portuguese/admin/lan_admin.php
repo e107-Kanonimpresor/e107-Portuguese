@@ -437,5 +437,5 @@ Segue abaixo a lista de ficheiros que podem ser potencialmente maliciosos:",
 	'LAN_SYSTEM_NOTIFICATIONS_X' => "[x] Notificação(ões) do Sistema",
 	'LAN_PHP_OUTDATED' => "O teu site está a correr uma versão [desatualizada do PHP], o que pode representar um risco de segurança. Se os teus plugins permitirem, recomendamos atualizar para [x] para garantir que o site está seguro e atualizado.",
 	'LAN_DATABASE_UPDATE' => "Uma nova atualização está disponível para a tua base de dados. Recomendamos [executar esta atualização] assim que possível para garantir que a tua base de dados está segura e atualizada.<br /><br />Antes de proceder, efetuar um backup da BD.",
-    'LAN_HISTORY' => "History",
+    'LAN_HISTORY' => "Histórico",
 ];

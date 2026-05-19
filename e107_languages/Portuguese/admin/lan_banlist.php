@@ -116,6 +116,6 @@ return [
 	'BANLAN_123' => "Adicionar à Lista Negra",
 	'BANLAN_124' => "Expira",   
 	'BANLAN_125' => "Usar o meu IP",
-	'BANLAN_126' => "IP / Email",
+	'BANLAN_126' => "IP / E-mail",
 	'BANLAN_127' => "Eliminar todos os [x] logins falhados da base de dados",
 ];

@@ -51,7 +51,7 @@ return [
 	'DOWLAN_27' => "Baixar",
 	'DOWLAN_29' => "Requeridas",
 	'DOWLAN_31' => "Categorias",
-	'DOWLAN_32' => "Downloads",
+	'DOWLAN_32' => "Transferências",
 	'DOWLAN_33' => "Tem certeza que deseja excluir este transferência?",
 	'DOWLAN_42' => "Imagens de exibição",
 	'DOWLAN_43' => "Visível para",

@@ -14,9 +14,9 @@
 
 return [
 	'PAGE_NAME' => "Registar",
-    'LAN_108' => "Registration complete",
-    'LAN_185' => "You left required field(s) blank",
-    'LAN_407' => "Please keep this email for your own information. Your password has been encrypted and cannot be retrieved if you misplace or forget it. You can, however, request a new password if this happens.\\n\\nThank you for registering.\\n\\nFrom",
+    'LAN_108' => "Registo concluído",
+    'LAN_185' => "Deixaste campo(s) obrigatório(s) em branco",
+    'LAN_407' => "Guarda este e-mail para tua informação. A tua palavra-passe foi encriptada e não pode ser recuperada se a perderes ou esqueceres. Podes, no entanto, solicitar uma nova palavra-passe se isso acontecer.\\n\\nObrigado por te registares.\\n\\nDe",
 	'LAN_EMAIL_01' => "Caro(a)",
 	'LAN_EMAIL_04' => "Por favor guarda este email para tua informação.",
 	'LAN_EMAIL_05' => "A tua palavra-passe foi encriptada e não pode ser recuperada se a perderes ou esqueceres. No entanto, podes pedir uma nova palavra-passe se isso acontecer.",

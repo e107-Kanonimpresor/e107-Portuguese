@@ -23,7 +23,7 @@ return [
 	'LAN_09' => "Redefinir palavra-passe de ",
 	'LAN_213' => "Esse nome de utilizador/endereço de e-mail não foi encontrado na base de dados.",
 	'LAN_214' => "Não foi possível redefinir a palavra-passe",
-	'LAN_218' => "Your username is:",
+	'LAN_218' => "O teu nome de utilizador é:",
 	'LAN_FPW1' => "Nome de utilizador",
 	'LAN_FPW4' => "Já foi enviada uma solicitação para redefinir esta palavra-passe. Se não recebeu o e-mail, por favor contacte o administrador do site para ajuda.",
 	'LAN_FPW5' => "Uma solicitação para redefinir a sua palavra-passe para",

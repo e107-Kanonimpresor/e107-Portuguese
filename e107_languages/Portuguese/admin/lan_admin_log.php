@@ -76,7 +76,7 @@ return [
 	'RL_LAN_090' => "ID do Download",
 	'RL_LAN_091' => "Tempos detalhados",
 	'RL_LAN_092' => "Período de tempo",
-	'RL_LAN_093' => "(mins)",
+	'RL_LAN_093' => "(min)",
 	'RL_LAN_094' => "Análise de tempo detalhada",
 	'RL_LAN_096' => "Diferença (s)",
 	'RL_LAN_100' => "CID",
@@ -106,5 +106,5 @@ return [
 	'RL_LAN_133' => "Aviso",
 	'RL_LAN_134' => "Advertência",
 	'RL_LAN_135' => "Fatal",
-    'RL_LAN_136' => "User navigation trail",
+    'RL_LAN_136' => "Rastreio de navegação do utilizador",
 ];

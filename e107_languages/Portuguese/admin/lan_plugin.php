@@ -103,7 +103,7 @@ return [
 	'EPL_ADLAN_93' => "Grátis",
 	'EPL_ADLAN_94' => "Conectando...",
 	'EPL_ADLAN_95' => "Não foi possível continuar",
-	'EPL_ADLAN_96' => "eg. https://website.com/some-plugin.zip",
+	'EPL_ADLAN_96' => "ex. https://website.com/some-plugin.zip",
 	'EPL_ADLAN_97' => "Houve um problema ao extrair o arquivo .zip para o diretório de plugins.",
 	'EPL_ADLAN_98' => "Arquivo desconhecido:",
 	'EPL_ADLAN_99' => "Mensagens de erro acima desta linha",

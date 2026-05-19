@@ -32,7 +32,7 @@ return [
     'RSS_FSP' => "Mensagem Específica do Fórum",
     'RSS_BUG' => "Bugtracker",
     'RSS_FOR' => "Fórum",
-    'RSS_DL' => "Downloads",
+    'RSS_DL' => "Transferências",
     'RSS_PLUGIN_LAN_6' => "Links de Feed",
     'RSS_PLUGIN_LAN_7' => "O feed RSS de notícias",
     'RSS_PLUGIN_LAN_8' => "O feed RSS de downloads",

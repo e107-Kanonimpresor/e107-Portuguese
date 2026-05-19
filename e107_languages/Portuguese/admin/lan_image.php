@@ -193,7 +193,7 @@ return [
 	'IMALAN_188' => "Converter para webp durante a renderização",
 	'IMALAN_189' => "Arquivos JPEG, PNG e GIF serão convertidos automaticamente para o formato webp. (ícones excluídos)",
 	'IMALAN_190' => "Importação deste tipo de arquivo não é permitida.",
-    'IMALAN_191' => "Image Alt Text",
-    'IMALAN_192' => "Credits",
-    'IMALAN_193' => "Expiry Date",
+    'IMALAN_191' => "Texto alternativo da imagem",
+    'IMALAN_192' => "Créditos",
+    'IMALAN_193' => "Data de validade",
 ];

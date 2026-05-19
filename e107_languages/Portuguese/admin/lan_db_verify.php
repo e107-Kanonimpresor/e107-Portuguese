@@ -36,6 +36,6 @@ return [
 	'DBVLAN_24' => "Por favor, selecione uma ação.",
 	'DBVLAN_25' => "Índice ausente!",
 	'DBVLAN_26' => "[x] tabela(s) têm problemas.",
-    'DBVLAN_27' => "Table inconsistency",
-    'DBVLAN_28' => "Not applicable",
+    'DBVLAN_27' => "Inconsistência da tabela",
+    'DBVLAN_28' => "Não aplicável",
 ];

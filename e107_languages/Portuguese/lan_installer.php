@@ -17,7 +17,7 @@ return [
 	'LANINS_002' => "Passo ",
 	'LANINS_003' => "1",
 	'LANINS_004' => "Seleção de Idioma",
-	'LANINS_005' => "Please choose the language to use during installation",
+	'LANINS_005' => "Por favor, escolhe o idioma a usar durante a instalação",
 	'LANINS_007' => "4",
 	'LANINS_008' => "Verificação das versões do PHP e MySQL / Verificação das permissões de ficheiros",
 	'LANINS_009' => "Reverificar permissões de ficheiros",
